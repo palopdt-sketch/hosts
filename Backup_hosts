@@ -90,4 +90,81 @@
 0.0.0.0 kuaishou.com
 
 # ==========================================================
+# [WEBGAME & TRÌNH DUYỆT GAME] (Poki, CrazyGames, Y8, v.v.)
+# ==========================================================
+0.0.0.0 poki.com
+0.0.0.0 www.poki.com
+0.0.0.0 crazygames.com
+0.0.0.0 www.crazygames.com
+0.0.0.0 y8.com
+0.0.0.0 www.y8.com
+0.0.0.0 krunker.io
+0.0.0.0 skribbl.io
+0.0.0.0 slither.io
+0.0.0.0 agar.io
+0.0.0.0 paper.io
+0.0.0.0 hole.io
+0.0.0.0 coolmathgames.com
+0.0.0.0 addictinggames.com
+0.0.0.0 kongregate.com
+0.0.0.0 armorgames.com
+0.0.0.0 silvergames.com
+0.0.0.0 gamevui.vn
+0.0.0.0 trochoi.net
+0.0.0.0 game24h.vn
+
+# ==========================================================
+# [MẠNG XÃ HỘI & HỘI NHÓM] (Facebook, Instagram, X, Reddit...)
+# ==========================================================
+# Facebook & Messenger (Bổ sung đầy đủ)
+0.0.0.0 instagram.com
+0.0.0.0 www.instagram.com
+0.0.0.0 threads.net
+0.0.0.0 www.threads.net
+
+# X (Twitter)
+0.0.0.0 x.com
+0.0.0.0 www.x.com
+0.0.0.0 twitter.com
+0.0.0.0 t.co
+
+# Reddit (Cộng đồng/Hội nhóm lớn nhất)
+0.0.0.0 reddit.com
+0.0.0.0 www.reddit.com
+0.0.0.0 redd.it
+
+# Discord (Trao đổi game & Hội nhóm)
+0.0.0.0 discord.com
+0.0.0.0 www.discord.com
+0.0.0.0 discord.gg
+0.0.0.0 discordapp.com
+0.0.0.0 discordapp.net
+
+# Pinterest & Snapchat
+0.0.0.0 pinterest.com
+0.0.0.0 snapchat.com
+0.0.0.0 www.snapchat.com
+
+# Telegram Web
+0.0.0.0 web.telegram.org
+0.0.0.0 t.me
+
+# ==========================================================
+# [STREAMING & CỘNG ĐỒNG VIDEO]
+# ==========================================================
+0.0.0.0 twitch.tv
+0.0.0.0 www.twitch.tv
+0.0.0.0 nimo.tv
+0.0.0.0 www.nimo.tv
+0.0.0.0 kick.com
+0.0.0.0 bigo.tv
+
+# [CỔNG GAME & PHÂN PHỐI]
+0.0.0.0 steampowered.com
+0.0.0.0 steamcommunity.com
+0.0.0.0 epicgames.com
+0.0.0.0 garena.vn
+0.0.0.0 garena.com
+
+# ==========================================================
 # END OF FILE
