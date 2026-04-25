@@ -15,6 +15,12 @@
 0.0.0.0 hkrpg-api-os.hoyoverse.com
 0.0.0.0 hkrpg-sdk-os.hoyoverse.com
 0.0.0.0 sdk-os-static.hoyoverse.com
+0.0.0.0 *.hoyolab.com
+0.0.0.0 act.hoyolab.com
+0.0.0.0 ebay.com
+0.0.0.0 *.ebay.com
+0.0.0.0 tcg.pokemon.com
+0.0.0.0 *.pokemon.com
 
 # [MINECRAFT] (Mojang / Microsoft)
 0.0.0.0 authserver.mojang.com
