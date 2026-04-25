@@ -62,36 +62,49 @@ def force_kill_games():
 
 def update_hosts_logic():
     if not is_admin():
-        print("LỖI: Vui lòng chạy bằng quyền Administrator!")
+        print("LỖI: Vui lòng chạy script bằng quyền Administrator!")
         return
 
     try:
-        # 1. Kiểm tra cập nhật hosts
-        print("\nChecking updates...")
+        # 1. Lấy nội dung file hosts từ Github
+        print("Đang kiểm tra cập nhật từ Github...")
         response = requests.get(GITHUB_HOSTS_URL, timeout=15)
         response.raise_for_status()
         remote_content = response.text
         remote_version = get_version_from_content(remote_content)
 
-        # Đọc local
+        # 2. Kiểm tra file hosts local
         local_content = ""
         if os.path.exists(HOSTS_PATH):
             with open(HOSTS_PATH, "r", encoding="utf-8") as f:
                 local_content = f.read()
+        
         local_version = get_version_from_content(local_content)
 
-        # So sánh và cập nhật
-        if local_version != remote_version:
-            print(f"Update detected: {local_version} -> {remote_version}")
+        # 3. So sánh version hoặc kiểm tra sự tồn tại của dòng version
+        # Nếu không tìm thấy version local hoặc version khác nhau thì mới update
+        if local_version is None:
+            print("Không tìm thấy thông tin version trong file hosts local. Đang tiến hành cài đặt mới...")
+            should_update = True
+        elif local_version != remote_version:
+            print(f"Phát hiện version mới: {remote_version} (Hiện tại: {local_version}). Đang cập nhật...")
+            should_update = True
+        else:
+            print(f"File hosts đã ở version mới nhất ({local_version}).")
+            should_update = False
+
+        if should_update:
+            # Ghi đè file hosts
             with open(HOSTS_PATH, "w", encoding="utf-8") as f:
                 f.write(remote_content)
+            
+            # Làm mới DNS
             flush_dns()
-        else:
-            print(f"Hosts OK (v{local_version})")
+            print("Cập nhật file hosts thành công!")
 
         # 2. Quét và diệt game
         force_kill_games()
-
+    
     except Exception as e:
         print(f"Có lỗi xảy ra: {e}")
 
