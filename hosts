@@ -4,32 +4,8 @@
 # ==========================================================
 
 # [GENSHIN IMPACT & HONKAI] (HoYoverse / MiHoYo)
-0.0.0.0 log-upload.mihoyo.com
-0.0.0.0 devlog-upload.mihoyo.com
-0.0.0.0 bugly.mihoyo.com
-0.0.0.0 api-os-takumi.mihoyo.com
-0.0.0.0 hk4e-api-os.hoyoverse.com
-0.0.0.0 hk4e-sdk-os.hoyoverse.com
-0.0.0.0 dispatch-os-global.hoyoverse.com
-0.0.0.0 hkrpg-api-os.hoyoverse.com
-0.0.0.0 hkrpg-sdk-os.hoyoverse.com
-0.0.0.0 sdk-os-static.hoyoverse.com
+0.0.0.0 log-upload.1mihoyo.com
 
-# [MINECRAFT] (Mojang / Microsoft)
-0.0.0.0 authserver.mojang.com
-0.0.0.0 sessionserver.mojang.com
-0.0.0.0 launchermeta.mojang.com
-0.0.0.0 textures.minecraft.net
-0.0.0.0 api.minecraftservices.com
-0.0.0.0 minecraft.net
-0.0.0.0 www.minecraft.net
-
-# [OSU!LAZER] (ppy.sh)
-0.0.0.0 osu.ppy.sh
-0.0.0.0 api.ppy.sh
-0.0.0.0 assets.ppy.sh
-0.0.0.0 s.ppy.sh
-0.0.0.0 notify.ppy.sh
 
 # ==========================================================
 # END OF FILE
