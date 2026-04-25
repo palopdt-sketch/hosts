@@ -1,4 +1,3 @@
-
 GenshinImpact.exe
 YuanShen.exe
 HonkaiStarRail.exe
