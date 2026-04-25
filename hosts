@@ -1,91 +1,64 @@
 # ==========================================================
-# FILE HOSTS CHẶN GAME & MẠNG XÃ HỘI - VERSION: 2026.04.251
-# Danh mục: Genshin Impact, Honkai, Minecraft, Osu!lazer, 
-#           Tiktok, Weibo, Facebook, China Tech & Social
+# FILE HOSTS TỔNG HỢP CHẶN TRIỆT ĐỂ - VERSION: 2026.04.25
 # ==========================================================
 
-# [GENSHIN IMPACT & HONKAI] (HoYoverse / MiHoYo)
-0.0.0.0 log-upload.mihoyo.com
-0.0.0.0 devlog-upload.mihoyo.com
-0.0.0.0 bugly.mihoyo.com
-0.0.0.0 api-os-takumi.mihoyo.com
-0.0.0.0 hk4e-api-os.hoyoverse.com
-0.0.0.0 hk4e-sdk-os.hoyoverse.com
-0.0.0.0 dispatch-os-global.hoyoverse.com
-0.0.0.0 hkrpg-api-os.hoyoverse.com
-0.0.0.0 hkrpg-sdk-os.hoyoverse.com
-0.0.0.0 sdk-os-static.hoyoverse.com
-0.0.0.0 *.hoyolab.com
-0.0.0.0 act.hoyolab.com
-0.0.0.0 ebay.com
-0.0.0.0 *.ebay.com
-0.0.0.0 tcg.pokemon.com
-0.0.0.0 *.pokemon.com
-0.0.0.0 doom.fandom.com
-0.0.0.0 www.fandom.com
-0.0.0.0 *.fandom.com
-
-# [HOYOVERSE & HOYOLAB] (Chặn toàn bộ hệ sinh thái)
+# --- [HOYOVERSE / MIHOYO SYSTEM] ---
 0.0.0.0 hoyoverse.com
+0.0.0.0 www.hoyoverse.com
 0.0.0.0 account.hoyoverse.com
 0.0.0.0 act.hoyoverse.com
 0.0.0.0 genshin.hoyoverse.com
 0.0.0.0 hsr.hoyoverse.com
+0.0.0.0 sdk-os-static.hoyoverse.com
+0.0.0.0 hk4e-api-os.hoyoverse.com
+0.0.0.0 hk4e-sdk-os.hoyoverse.com
+0.0.0.0 hkrpg-api-os.hoyoverse.com
+0.0.0.0 hkrpg-sdk-os.hoyoverse.com
+0.0.0.0 dispatch-os-global.hoyoverse.com
 0.0.0.0 hoyolab.com
+0.0.0.0 www.hoyolab.com
 0.0.0.0 act.hoyolab.com
 0.0.0.0 wiki.hoyolab.com
+0.0.0.0 mihoyo.com
+0.0.0.0 www.mihoyo.com
+0.0.0.0 log-upload.mihoyo.com
+0.0.0.0 devlog-upload.mihoyo.com
+0.0.0.0 bugly.mihoyo.com
+0.0.0.0 api-os-takumi.mihoyo.com
 
-# [WIKIA & FANDOM] (Các trang tra cứu thông tin game)
+# --- [WIKIA / FANDOM / GUIDES] ---
 0.0.0.0 fandom.com
+0.0.0.0 www.fandom.com
 0.0.0.0 community.fandom.com
 0.0.0.0 doom.fandom.com
 0.0.0.0 genshin-impact.fandom.com
 0.0.0.0 honkai-star-rail.fandom.com
 0.0.0.0 videogaming.fandom.com
+0.0.0.0 wikia.com
+0.0.0.0 www.wikia.com
 0.0.0.0 wikia.nocookie.net
 0.0.0.0 static.wikia.nocookie.net
-
-# [TRADING CARDS & SHOPPING] (TCG, Pokemon, eBay)
-0.0.0.0 ebay.com
-0.0.0.0 ebay.com.au
-0.0.0.0 tcgplayer.com
-0.0.0.0 pricecharting.com
-0.0.0.0 sportscardinvestor.com
-0.0.0.0 tcg.pokemon.com
-
-# [GAME GUIDES & TOOLS] (Hướng dẫn build nhân vật)
 0.0.0.0 game8.co
+0.0.0.0 www.game8.co
 0.0.0.0 genshin-builds.com
 0.0.0.0 starrailstation.com
 0.0.0.0 herogame.vn
+0.0.0.0 www.herogame.vn
 
-# [SOCIAL & MISC]
-0.0.0.0 reddit.com
-0.0.0.0 discord.com
-0.0.0.0 v2.rhythm-plus.com
-0.0.0.0 mi2.mudgames.in
+# --- [SHOPPING & TCG] ---
+0.0.0.0 ebay.com
+0.0.0.0 www.ebay.com
+0.0.0.0 ebay.com.au
+0.0.0.0 www.ebay.com.au
+0.0.0.0 tcgplayer.com
+0.0.0.0 www.tcgplayer.com
+0.0.0.0 pricecharting.com
+0.0.0.0 sportscardinvestor.com
+0.0.0.0 pokemon.com
+0.0.0.0 www.pokemon.com
+0.0.0.0 tcg.pokemon.com
 
-# ==========================================================
-
-# [MINECRAFT] (Mojang / Microsoft)
-0.0.0.0 authserver.mojang.com
-0.0.0.0 sessionserver.mojang.com
-0.0.0.0 launchermeta.mojang.com
-0.0.0.0 textures.minecraft.net
-0.0.0.0 api.minecraftservices.com
-0.0.0.0 minecraft.net
-0.0.0.0 www.minecraft.net
-
-
-# [OSU!LAZER] (ppy.sh)
-0.0.0.0 osu.ppy.sh
-0.0.0.0 api.ppy.sh
-0.0.0.0 assets.ppy.sh
-0.0.0.0 s.ppy.sh
-0.0.0.0 notify.ppy.sh
-
-# ==========================================================
-# [TIKTOK & DOUYIN] (ByteDance)
+# --- [TIKTOK & DOUYIN] ---
 0.0.0.0 tiktok.com
 0.0.0.0 www.tiktok.com
 0.0.0.0 m.tiktok.com
@@ -93,156 +66,76 @@
 0.0.0.0 tiktokv.com
 0.0.0.0 tiktokcdn.com
 0.0.0.0 tiktokcdn-us.com
-0.0.0.0 tiktokcdn-eu.com
 0.0.0.0 byteoversea.com
-0.0.0.0 ibyteimg.com
 0.0.0.0 ibytedtos.com
-0.0.0.0 sgsnssdk.com
 0.0.0.0 douyin.com
 0.0.0.0 www.douyin.com
 
-# [WEIBO & SINA]
-0.0.0.0 weibo.com
-0.0.0.0 www.weibo.com
-0.0.0.0 weibo.cn
-0.0.0.0 m.weibo.cn
-0.0.0.0 weibocdn.com
-0.0.0.0 sinaimg.cn
-0.0.0.0 sinajs.cn
-0.0.0.0 sina.com.cn
-
-# [FACEBOOK & META] (Chặn web, messenger và CDN ảnh/video)
+# --- [FACEBOOK / INSTAGRAM / META] ---
 0.0.0.0 facebook.com
 0.0.0.0 www.facebook.com
-0.0.0.0 m.facebook.com
 0.0.0.0 fb.com
-0.0.0.0 fb.watch
 0.0.0.0 fbcdn.net
-0.0.0.0 connect.facebook.net
-0.0.0.0 graph.facebook.com
-0.0.0.0 edge-mqtt.facebook.com
 0.0.0.0 messenger.com
 0.0.0.0 www.messenger.com
+0.0.0.0 instagram.com
+0.0.0.0 www.instagram.com
+0.0.0.0 threads.net
 
-# [CHINA TECH & SOCIAL] (Baidu, Tencent, Alibaba, Bilibili...)
-0.0.0.0 baidu.com
-0.0.0.0 www.baidu.com
-0.0.0.0 tieba.baidu.com
-0.0.0.0 qq.com
-0.0.0.0 www.qq.com
-0.0.0.0 v.qq.com
-0.0.0.0 wechat.com
-0.0.0.0 taobao.com
-0.0.0.0 alibaba.com
-0.0.0.0 aliexpress.com
-0.0.0.0 bilibili.com
-0.0.0.0 www.bilibili.com
-0.0.0.0 xiaohongshu.com
-0.0.0.0 zhihu.com
-0.0.0.0 kuaishou.com
+# --- [ROBLOX SYSTEM] ---
+0.0.0.0 roblox.com
+0.0.0.0 www.roblox.com
+0.0.0.0 api.roblox.com
+0.0.0.0 clientsettings.api.roblox.com
+0.0.0.0 setup.rbxcdn.com
+0.0.0.0 assetgame.roblox.com
+0.0.0.0 auth.roblox.com
+0.0.0.0 chat.roblox.com
+0.0.0.0 games.roblox.com
+0.0.0.0 rbxcdn.com
 
-# ==========================================================
-# [WEBGAME & TRÌNH DUYỆT GAME] (Poki, CrazyGames, Y8, v.v.)
-# ==========================================================
+# --- [MINECRAFT & OSU] ---
+0.0.0.0 minecraft.net
+0.0.0.0 www.minecraft.net
+0.0.0.0 api.minecraftservices.com
+0.0.0.0 authserver.mojang.com
+0.0.0.0 sessionserver.mojang.com
+0.0.0.0 ppy.sh
+0.0.0.0 osu.ppy.sh
+0.0.0.0 api.ppy.sh
+
+# --- [WEBGAMES] ---
 0.0.0.0 poki.com
 0.0.0.0 www.poki.com
 0.0.0.0 crazygames.com
 0.0.0.0 www.crazygames.com
 0.0.0.0 y8.com
 0.0.0.0 www.y8.com
-0.0.0.0 krunker.io
-0.0.0.0 skribbl.io
-0.0.0.0 slither.io
-0.0.0.0 agar.io
-0.0.0.0 paper.io
-0.0.0.0 hole.io
-0.0.0.0 coolmathgames.com
-0.0.0.0 addictinggames.com
-0.0.0.0 kongregate.com
-0.0.0.0 armorgames.com
-0.0.0.0 silvergames.com
 0.0.0.0 gamevui.vn
-0.0.0.0 trochoi.net
+0.0.0.0 www.gamevui.vn
 0.0.0.0 game24h.vn
 
-# ==========================================================
-# [MẠNG XÃ HỘI & HỘI NHÓM] (Facebook, Instagram, X, Reddit...)
-# ==========================================================
-# Facebook & Messenger (Bổ sung đầy đủ)
-0.0.0.0 instagram.com
-0.0.0.0 www.instagram.com
-0.0.0.0 threads.net
-0.0.0.0 www.threads.net
+# --- [CHINA TECH & SOCIAL] ---
+0.0.0.0 baidu.com
+0.0.0.0 www.baidu.com
+0.0.0.0 weibo.com
+0.0.0.0 www.weibo.com
+0.0.0.0 qq.com
+0.0.0.0 www.qq.com
+0.0.0.0 bilibili.com
+0.0.0.0 www.bilibili.com
 
-# X (Twitter)
-0.0.0.0 x.com
-0.0.0.0 www.x.com
-0.0.0.0 twitter.com
-0.0.0.0 t.co
-
-# Reddit (Cộng đồng/Hội nhóm lớn nhất)
+# --- [SOCIAL & MISC] ---
 0.0.0.0 reddit.com
 0.0.0.0 www.reddit.com
-0.0.0.0 redd.it
-
-# Discord (Trao đổi game & Hội nhóm)
 0.0.0.0 discord.com
 0.0.0.0 www.discord.com
 0.0.0.0 discord.gg
-0.0.0.0 discordapp.com
-0.0.0.0 discordapp.net
-
-# Pinterest & Snapchat
-0.0.0.0 pinterest.com
-0.0.0.0 snapchat.com
-0.0.0.0 www.snapchat.com
-
-# Telegram Web
-0.0.0.0 web.telegram.org
-0.0.0.0 t.me
-
-# ==========================================================
-# [STREAMING & CỘNG ĐỒNG VIDEO]
-# ==========================================================
-0.0.0.0 twitch.tv
-0.0.0.0 www.twitch.tv
-0.0.0.0 nimo.tv
-0.0.0.0 www.nimo.tv
-0.0.0.0 kick.com
-0.0.0.0 bigo.tv
-
-# [CỔNG GAME & PHÂN PHỐI]
-0.0.0.0 steampowered.com
-0.0.0.0 steamcommunity.com
-0.0.0.0 epicgames.com
-0.0.0.0 garena.vn
-0.0.0.0 garena.com
-
-# ==========================================================
-# [ROBLOX - ALL SERVICES]
-# ==========================================================
-0.0.0.0 roblox.com
-0.0.0.0 www.roblox.com
-0.0.0.0 web.roblox.com
-0.0.0.0 api.roblox.com
-0.0.0.0 clientsettings.api.roblox.com
-0.0.0.0 setup.roblox.com
-0.0.0.0 setup.rbxcdn.com
-0.0.0.0 assetgame.roblox.com
-0.0.0.0 auth.roblox.com
-0.0.0.0 chat.roblox.com
-0.0.0.0 contacts.roblox.com
-0.0.0.0 games.roblox.com
-0.0.0.0 groups.roblox.com
-0.0.0.0 inventory.roblox.com
-0.0.0.0 presence.roblox.com
-0.0.0.0 publish.roblox.com
-0.0.0.0 thumbnails.roblox.com
-0.0.0.0 share.roblox.com
-0.0.0.0 rbxcdn.com
-0.0.0.0 rbxtokens.roblox.com
-0.0.0.0 data.roblox.com
-0.0.0.0 metric.roblox.com
+0.0.0.0 x.com
+0.0.0.0 www.x.com
+0.0.0.0 twitter.com
+0.0.0.0 v2.rhythm-plus.com
+0.0.0.0 mi2.mudgames.in
 
 # ==========================================================
 # END OF FILE
