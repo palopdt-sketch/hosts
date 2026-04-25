@@ -1,6 +1,7 @@
 # ==========================================================
-# FILE HOSTS CHẶN GAME - VERSION: 2026.04.24
-# Danh mục: Genshin Impact, Honkai, Minecraft, Osu!lazer
+# FILE HOSTS CHẶN GAME & MẠNG XÃ HỘI - VERSION: 2026.04.25
+# Danh mục: Genshin Impact, Honkai, Minecraft, Osu!lazer, 
+#           Tiktok, Weibo, Facebook, China Tech & Social
 # ==========================================================
 
 # [GENSHIN IMPACT & HONKAI] (HoYoverse / MiHoYo)
@@ -30,6 +31,63 @@
 0.0.0.0 assets.ppy.sh
 0.0.0.0 s.ppy.sh
 0.0.0.0 notify.ppy.sh
+
+# ==========================================================
+# [TIKTOK & DOUYIN] (ByteDance)
+0.0.0.0 tiktok.com
+0.0.0.0 www.tiktok.com
+0.0.0.0 m.tiktok.com
+0.0.0.0 v.tiktok.com
+0.0.0.0 tiktokv.com
+0.0.0.0 tiktokcdn.com
+0.0.0.0 tiktokcdn-us.com
+0.0.0.0 tiktokcdn-eu.com
+0.0.0.0 byteoversea.com
+0.0.0.0 ibyteimg.com
+0.0.0.0 ibytedtos.com
+0.0.0.0 sgsnssdk.com
+0.0.0.0 douyin.com
+0.0.0.0 www.douyin.com
+
+# [WEIBO & SINA]
+0.0.0.0 weibo.com
+0.0.0.0 www.weibo.com
+0.0.0.0 weibo.cn
+0.0.0.0 m.weibo.cn
+0.0.0.0 weibocdn.com
+0.0.0.0 sinaimg.cn
+0.0.0.0 sinajs.cn
+0.0.0.0 sina.com.cn
+
+# [FACEBOOK & META] (Chặn web, messenger và CDN ảnh/video)
+0.0.0.0 facebook.com
+0.0.0.0 www.facebook.com
+0.0.0.0 m.facebook.com
+0.0.0.0 fb.com
+0.0.0.0 fb.watch
+0.0.0.0 fbcdn.net
+0.0.0.0 connect.facebook.net
+0.0.0.0 graph.facebook.com
+0.0.0.0 edge-mqtt.facebook.com
+0.0.0.0 messenger.com
+0.0.0.0 www.messenger.com
+
+# [CHINA TECH & SOCIAL] (Baidu, Tencent, Alibaba, Bilibili...)
+0.0.0.0 baidu.com
+0.0.0.0 www.baidu.com
+0.0.0.0 tieba.baidu.com
+0.0.0.0 qq.com
+0.0.0.0 www.qq.com
+0.0.0.0 v.qq.com
+0.0.0.0 wechat.com
+0.0.0.0 taobao.com
+0.0.0.0 alibaba.com
+0.0.0.0 aliexpress.com
+0.0.0.0 bilibili.com
+0.0.0.0 www.bilibili.com
+0.0.0.0 xiaohongshu.com
+0.0.0.0 zhihu.com
+0.0.0.0 kuaishou.com
 
 # ==========================================================
 # END OF FILE
