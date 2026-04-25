@@ -1,5 +1,5 @@
 # ==========================================================
-# FILE HOSTS CHẶN GAME & MẠNG XÃ HỘI - VERSION: 2026.04.25
+# FILE HOSTS CHẶN GAME & MẠNG XÃ HỘI - VERSION: 2026.04.251
 # Danh mục: Genshin Impact, Honkai, Minecraft, Osu!lazer, 
 #           Tiktok, Weibo, Facebook, China Tech & Social
 # ==========================================================
@@ -165,6 +165,32 @@
 0.0.0.0 epicgames.com
 0.0.0.0 garena.vn
 0.0.0.0 garena.com
+
+# ==========================================================
+# [ROBLOX - ALL SERVICES]
+# ==========================================================
+0.0.0.0 roblox.com
+0.0.0.0 www.roblox.com
+0.0.0.0 web.roblox.com
+0.0.0.0 api.roblox.com
+0.0.0.0 clientsettings.api.roblox.com
+0.0.0.0 setup.roblox.com
+0.0.0.0 setup.rbxcdn.com
+0.0.0.0 assetgame.roblox.com
+0.0.0.0 auth.roblox.com
+0.0.0.0 chat.roblox.com
+0.0.0.0 contacts.roblox.com
+0.0.0.0 games.roblox.com
+0.0.0.0 groups.roblox.com
+0.0.0.0 inventory.roblox.com
+0.0.0.0 presence.roblox.com
+0.0.0.0 publish.roblox.com
+0.0.0.0 thumbnails.roblox.com
+0.0.0.0 share.roblox.com
+0.0.0.0 rbxcdn.com
+0.0.0.0 rbxtokens.roblox.com
+0.0.0.0 data.roblox.com
+0.0.0.0 metric.roblox.com
 
 # ==========================================================
 # END OF FILE
