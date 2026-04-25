@@ -25,6 +25,48 @@
 0.0.0.0 www.fandom.com
 0.0.0.0 *.fandom.com
 
+# [HOYOVERSE & HOYOLAB] (Chặn toàn bộ hệ sinh thái)
+0.0.0.0 hoyoverse.com
+0.0.0.0 account.hoyoverse.com
+0.0.0.0 act.hoyoverse.com
+0.0.0.0 genshin.hoyoverse.com
+0.0.0.0 hsr.hoyoverse.com
+0.0.0.0 hoyolab.com
+0.0.0.0 act.hoyolab.com
+0.0.0.0 wiki.hoyolab.com
+
+# [WIKIA & FANDOM] (Các trang tra cứu thông tin game)
+0.0.0.0 fandom.com
+0.0.0.0 community.fandom.com
+0.0.0.0 doom.fandom.com
+0.0.0.0 genshin-impact.fandom.com
+0.0.0.0 honkai-star-rail.fandom.com
+0.0.0.0 videogaming.fandom.com
+0.0.0.0 wikia.nocookie.net
+0.0.0.0 static.wikia.nocookie.net
+
+# [TRADING CARDS & SHOPPING] (TCG, Pokemon, eBay)
+0.0.0.0 ebay.com
+0.0.0.0 ebay.com.au
+0.0.0.0 tcgplayer.com
+0.0.0.0 pricecharting.com
+0.0.0.0 sportscardinvestor.com
+0.0.0.0 tcg.pokemon.com
+
+# [GAME GUIDES & TOOLS] (Hướng dẫn build nhân vật)
+0.0.0.0 game8.co
+0.0.0.0 genshin-builds.com
+0.0.0.0 starrailstation.com
+0.0.0.0 herogame.vn
+
+# [SOCIAL & MISC]
+0.0.0.0 reddit.com
+0.0.0.0 discord.com
+0.0.0.0 v2.rhythm-plus.com
+0.0.0.0 mi2.mudgames.in
+
+# ==========================================================
+
 # [MINECRAFT] (Mojang / Microsoft)
 0.0.0.0 authserver.mojang.com
 0.0.0.0 sessionserver.mojang.com
@@ -33,6 +75,7 @@
 0.0.0.0 api.minecraftservices.com
 0.0.0.0 minecraft.net
 0.0.0.0 www.minecraft.net
+
 
 # [OSU!LAZER] (ppy.sh)
 0.0.0.0 osu.ppy.sh
