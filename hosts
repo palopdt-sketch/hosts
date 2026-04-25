@@ -21,6 +21,9 @@
 0.0.0.0 *.ebay.com
 0.0.0.0 tcg.pokemon.com
 0.0.0.0 *.pokemon.com
+0.0.0.0 doom.fandom.com
+0.0.0.0 www.fandom.com
+0.0.0.0 *.fandom.com
 
 # [MINECRAFT] (Mojang / Microsoft)
 0.0.0.0 authserver.mojang.com
