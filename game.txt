@@ -1,0 +1,6 @@
+GenshinImpact.exe
+YuanShen.exe
+HonkaiStarRail.exe
+javaw.exe
+TLauncher.exe
+osu!.exe
