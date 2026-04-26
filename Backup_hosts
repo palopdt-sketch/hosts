@@ -1,5 +1,5 @@
 # ==========================================================
-# FILE HOSTS TỔNG HỢP CHẶN TRIỆT ĐỂ - VERSION: 2026.04.25
+# FILE HOSTS TỔNG HỢP CHẶN TRIỆT ĐỂ - VERSION: 2026.04.251
 # ==========================================================
 
 # --- [HOYOVERSE / MIHOYO SYSTEM] ---
@@ -29,6 +29,8 @@
 0.0.0.0 aternos.org
 0.0.0.0 github.com
 0.0.0.0 www.github.com
+0.0.0.0 dopa-global.com
+
 0.0.0.0 aaaaaaaaaaaaa
 
 # --- [WIKIA / FANDOM / GUIDES] ---
