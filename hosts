@@ -103,6 +103,10 @@
 0.0.0.0 ppy.sh
 0.0.0.0 osu.ppy.sh
 0.0.0.0 api.ppy.sh
+0.0.0.0 aternos.org
+0.0.0.0 account.live.com
+0.0.0.0 login.live.com
+0.0.0.0 www.live.com
 
 # --- [WEBGAMES] ---
 0.0.0.0 poki.com
@@ -136,6 +140,17 @@
 0.0.0.0 twitter.com
 0.0.0.0 v2.rhythm-plus.com
 0.0.0.0 mi2.mudgames.in
+0.0.0.0 mudgames.in
+0.0.0.0 tumblr.com
+0.0.0.0 psacard.com
+0.0.0.0 vending.pokemon.com
+0.0.0.0 cardladder.com
+0.0.0.0 amazon.co.uk
+0.0.0.0 tlauncher.org
+0.0.0.0 skinmc.net
+0.0.0.0 ordr.issou.best
+0.0.0.0 tools.osuck.net
+
 
 # ==========================================================
 # END OF FILE
