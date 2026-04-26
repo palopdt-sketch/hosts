@@ -1,0 +1,31 @@
+name: Voice Control Hosts
+on:
+  repository_dispatch:
+    types: [block_now, bo_block]
+
+jobs:
+  execute_command:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Execute Logic
+        run: |
+          if [ "${{ github.event.action }}" == "bo_block" ]; then
+            echo "" > hosts
+            echo "" > game.txt
+            echo "STATUS=Đã bỏ Block" >> $GITHUB_ENV
+          elif [ "${{ github.event.action }}" == "block_now" ]; then
+            cat Backup_hosts > hosts
+            cat Backup_game > game.txt
+            echo "STATUS=Đã Block" >> $GITHUB_ENV
+          fi
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "Claude AI"
+          git config --global user.email "claude@ai.com"
+          git add hosts game.txt
+          git commit -m "${{ env.STATUS }}"
+          git push
