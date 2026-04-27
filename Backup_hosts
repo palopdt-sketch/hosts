@@ -33,6 +33,21 @@
 
 0.0.0.0 aaaaaaaaaaaaa
 
+
+# --- [ARKNIGHTS: ENDFIELD & GRYPHLINE] ---
+0.0.0.0 arknightsendfield.com
+0.0.0.0 www.arknightsendfield.com
+0.0.0.0 endfield.arknights.global
+0.0.0.0 www.endfield.arknights.global
+0.0.0.0 gryphline.com
+0.0.0.0 www.gryphline.com
+0.0.0.0 api.gryphline.com
+0.0.0.0 sdk.gryphline.com
+0.0.0.0 hg-games.com
+0.0.0.0 hypergryph.com
+0.0.0.0 www.hypergryph.com
+0.0.0.0 ak.hypergryph.com
+
 # --- [WIKIA / FANDOM / GUIDES] ---
 0.0.0.0 fandom.com
 0.0.0.0 www.fandom.com
