@@ -33,6 +33,45 @@
 
 0.0.0.0 aaaaaaaaaaaaa
 
+# [RIOT & VNG - LOL/VALORANT]
+0.0.0.0 riotgames.com
+0.0.0.0 www.riotgames.com
+0.0.0.0 vnggames.com
+0.0.0.0 leagueoflegends.com
+0.0.0.0 playvalorant.com
+0.0.0.0 pvp.net
+
+# [WUTHERING WAVES - KURO GAMES]
+0.0.0.0 kurogame.com
+0.0.0.0 wutheringwaves.kurogame.com
+0.0.0.0 aki-game.com
+
+# [EMULATORS & MOBILE GAMES]
+0.0.0.0 gameloop.com
+0.0.0.0 bluestacks.com
+0.0.0.0 ldplayer.net
+0.0.0.0 freefiremobile.com
+0.0.0.0 pubgmobile.com
+
+# [STEAM & EPIC]
+0.0.0.0 steampowered.com
+0.0.0.0 steamcommunity.com
+0.0.0.0 epicgames.com
+
+# --- [ARKNIGHTS: ENDFIELD & GRYPHLINE] ---
+0.0.0.0 arknightsendfield.com
+0.0.0.0 www.arknightsendfield.com
+0.0.0.0 endfield.arknights.global
+0.0.0.0 www.endfield.arknights.global
+0.0.0.0 gryphline.com
+0.0.0.0 www.gryphline.com
+0.0.0.0 api.gryphline.com
+0.0.0.0 sdk.gryphline.com
+0.0.0.0 hg-games.com
+0.0.0.0 hypergryph.com
+0.0.0.0 www.hypergryph.com
+0.0.0.0 ak.hypergryph.com
+
 # --- [WIKIA / FANDOM / GUIDES] ---
 0.0.0.0 fandom.com
 0.0.0.0 www.fandom.com
