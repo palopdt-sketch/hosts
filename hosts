@@ -1,1 +1,187 @@
+# ==========================================================
+# FILE HOSTS TỔNG HỢP CHẶN TRIỆT ĐỂ - VERSION: 2026.04.251
+# ==========================================================
 
+# --- [HOYOVERSE / MIHOYO SYSTEM] ---
+0.0.0.0 hoyoverse.com
+0.0.0.0 www.hoyoverse.com
+0.0.0.0 account.hoyoverse.com
+0.0.0.0 act.hoyoverse.com
+0.0.0.0 genshin.hoyoverse.com
+0.0.0.0 hsr.hoyoverse.com
+0.0.0.0 sdk-os-static.hoyoverse.com
+0.0.0.0 hk4e-api-os.hoyoverse.com
+0.0.0.0 hk4e-sdk-os.hoyoverse.com
+0.0.0.0 hkrpg-api-os.hoyoverse.com
+0.0.0.0 hkrpg-sdk-os.hoyoverse.com
+0.0.0.0 dispatch-os-global.hoyoverse.com
+0.0.0.0 hoyolab.com
+0.0.0.0 www.hoyolab.com
+0.0.0.0 act.hoyolab.com
+0.0.0.0 wiki.hoyolab.com
+0.0.0.0 mihoyo.com
+0.0.0.0 www.mihoyo.com
+0.0.0.0 log-upload.mihoyo.com
+0.0.0.0 devlog-upload.mihoyo.com
+0.0.0.0 bugly.mihoyo.com
+0.0.0.0 api-os-takumi.mihoyo.com
+0.0.0.0 cardmarket.com
+0.0.0.0 aternos.org
+0.0.0.0 github.com
+0.0.0.0 www.github.com
+0.0.0.0 dopa-global.com
+
+0.0.0.0 aaaaaaaaaaaaa
+
+# [RIOT & VNG - LOL/VALORANT]
+0.0.0.0 riotgames.com
+0.0.0.0 www.riotgames.com
+0.0.0.0 vnggames.com
+0.0.0.0 leagueoflegends.com
+0.0.0.0 playvalorant.com
+0.0.0.0 pvp.net
+
+# [WUTHERING WAVES - KURO GAMES]
+0.0.0.0 kurogame.com
+0.0.0.0 wutheringwaves.kurogame.com
+0.0.0.0 aki-game.com
+
+# [EMULATORS & MOBILE GAMES]
+0.0.0.0 gameloop.com
+0.0.0.0 bluestacks.com
+0.0.0.0 ldplayer.net
+0.0.0.0 freefiremobile.com
+0.0.0.0 pubgmobile.com
+
+# [STEAM & EPIC]
+0.0.0.0 steampowered.com
+0.0.0.0 steamcommunity.com
+0.0.0.0 epicgames.com
+
+# --- [ARKNIGHTS: ENDFIELD & GRYPHLINE] ---
+0.0.0.0 arknightsendfield.com
+0.0.0.0 www.arknightsendfield.com
+0.0.0.0 endfield.arknights.global
+0.0.0.0 www.endfield.arknights.global
+0.0.0.0 gryphline.com
+0.0.0.0 www.gryphline.com
+0.0.0.0 api.gryphline.com
+0.0.0.0 sdk.gryphline.com
+0.0.0.0 hg-games.com
+0.0.0.0 hypergryph.com
+0.0.0.0 www.hypergryph.com
+0.0.0.0 ak.hypergryph.com
+
+# --- [WIKIA / FANDOM / GUIDES] ---
+0.0.0.0 fandom.com
+0.0.0.0 www.fandom.com
+0.0.0.0 community.fandom.com
+0.0.0.0 doom.fandom.com
+0.0.0.0 genshin-impact.fandom.com
+0.0.0.0 honkai-star-rail.fandom.com
+0.0.0.0 videogaming.fandom.com
+0.0.0.0 wikia.com
+0.0.0.0 www.wikia.com
+0.0.0.0 wikia.nocookie.net
+0.0.0.0 static.wikia.nocookie.net
+0.0.0.0 game8.co
+0.0.0.0 www.game8.co
+0.0.0.0 genshin-builds.com
+0.0.0.0 starrailstation.com
+0.0.0.0 herogame.vn
+0.0.0.0 www.herogame.vn
+
+# --- [SHOPPING & TCG] ---
+0.0.0.0 ebay.com
+0.0.0.0 www.ebay.com
+0.0.0.0 ebay.com.au
+0.0.0.0 www.ebay.com.au
+0.0.0.0 tcgplayer.com
+0.0.0.0 www.tcgplayer.com
+0.0.0.0 pricecharting.com
+0.0.0.0 sportscardinvestor.com
+0.0.0.0 pokemon.com
+0.0.0.0 www.pokemon.com
+0.0.0.0 tcg.pokemon.com
+
+# --- [TIKTOK & DOUYIN] ---
+0.0.0.0 tiktok.com
+0.0.0.0 www.tiktok.com
+0.0.0.0 m.tiktok.com
+0.0.0.0 v.tiktok.com
+0.0.0.0 tiktokv.com
+0.0.0.0 tiktokcdn.com
+0.0.0.0 tiktokcdn-us.com
+0.0.0.0 byteoversea.com
+0.0.0.0 ibytedtos.com
+0.0.0.0 douyin.com
+0.0.0.0 www.douyin.com
+
+# --- [FACEBOOK / INSTAGRAM / META] ---
+0.0.0.0 facebook.com
+0.0.0.0 www.facebook.com
+0.0.0.0 fb.com
+0.0.0.0 fbcdn.net
+0.0.0.0 messenger.com
+0.0.0.0 www.messenger.com
+0.0.0.0 instagram.com
+0.0.0.0 www.instagram.com
+0.0.0.0 threads.net
+
+# --- [ROBLOX SYSTEM] ---
+0.0.0.0 roblox.com
+0.0.0.0 www.roblox.com
+0.0.0.0 api.roblox.com
+0.0.0.0 clientsettings.api.roblox.com
+0.0.0.0 setup.rbxcdn.com
+0.0.0.0 assetgame.roblox.com
+0.0.0.0 auth.roblox.com
+0.0.0.0 chat.roblox.com
+0.0.0.0 games.roblox.com
+0.0.0.0 rbxcdn.com
+
+# --- [MINECRAFT & OSU] ---
+0.0.0.0 minecraft.net
+0.0.0.0 www.minecraft.net
+0.0.0.0 api.minecraftservices.com
+0.0.0.0 authserver.mojang.com
+0.0.0.0 sessionserver.mojang.com
+0.0.0.0 ppy.sh
+0.0.0.0 osu.ppy.sh
+0.0.0.0 api.ppy.sh
+
+# --- [WEBGAMES] ---
+0.0.0.0 poki.com
+0.0.0.0 www.poki.com
+0.0.0.0 crazygames.com
+0.0.0.0 www.crazygames.com
+0.0.0.0 y8.com
+0.0.0.0 www.y8.com
+0.0.0.0 gamevui.vn
+0.0.0.0 www.gamevui.vn
+0.0.0.0 game24h.vn
+
+# --- [CHINA TECH & SOCIAL] ---
+0.0.0.0 baidu.com
+0.0.0.0 www.baidu.com
+0.0.0.0 weibo.com
+0.0.0.0 www.weibo.com
+0.0.0.0 qq.com
+0.0.0.0 www.qq.com
+0.0.0.0 bilibili.com
+0.0.0.0 www.bilibili.com
+
+# --- [SOCIAL & MISC] ---
+0.0.0.0 reddit.com
+0.0.0.0 www.reddit.com
+0.0.0.0 discord.com
+0.0.0.0 www.discord.com
+0.0.0.0 discord.gg
+0.0.0.0 x.com
+0.0.0.0 www.x.com
+0.0.0.0 twitter.com
+0.0.0.0 v2.rhythm-plus.com
+0.0.0.0 mi2.mudgames.in
+
+# ==========================================================
+# END OF FILE
