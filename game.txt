@@ -29,3 +29,17 @@ Discord.exe
 WhatsApp.exe
 Viber.exe
 Skype.exe
+NTELauncher.exe
+PerfectWorldPlatform.exe
+PWClient.exe
+N2ELauncher.exe
+NTE.exe
+NTE-Win64-Shipping.exe
+CrashReportClient.exe
+ACE-Base.exe
+AntiCheatExpert.exe
+SGuard64.exe
+SGuard32.exe
+QRSL.exe
+tslGame.exe
+NTE_CrashHandler.exe

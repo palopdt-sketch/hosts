@@ -53,6 +53,31 @@
 0.0.0.0 minecraft-mp.com
 0.0.0.0 www.minecraft-mp.com
 
+# --- Block Perfect World & NTE Domains ---
+
+# Main Game & Web Servers
+0.0.0.0 nte.perfectworld.com
+0.0.0.0 nte-cn.perfectworld.com
+0.0.0.0 www.perfectworld.com
+0.0.0.0 pwa.perfectworld.com
+
+# Authentication & Account Services
+0.0.0.0 account.perfectworld.com
+0.0.0.0 passport.perfectworld.com
+0.0.0.0 api-account.perfectworld.com
+0.0.0.0 login-nte.perfectworld.com
+
+# Telemetry, Analytics & Logging (Tracking)
+0.0.0.0 log.perfectworld.com
+0.0.0.0 data.perfectworld.com
+0.0.0.0 tracking.perfectworld.com
+0.0.0.0 sdk.perfectworld.com
+
+# Patching & CDNs (Game Updates)
+0.0.0.0 update.perfectworld.com
+0.0.0.0 patch-nte.perfectworld.com
+0.0.0.0 cdn.perfectworld.com
+0.0.0.0 dl.perfectworld.com
 
 0.0.0.0 aaaaaaaaaaaaa
 
