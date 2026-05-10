@@ -1,6 +1,58 @@
 # ==========================================================
 # FILE HOSTS TỔNG HỢP CHẶN TRIỆT ĐỂ - VERSION: 2026.04.251
 # ==========================================================
+# --- [Game8 SYSTEM] ---
+0.0.0.0 game8.co
+0.0.0.0 www.game8.co
+
+# Neverness to Everness (NTE) & miHoYo/Hoyoverse games
+0.0.0.0 nevernesstoeverness.com
+0.0.0.0 api.nevernesstoeverness.com
+0.0.0.0 genshin.hoyoverse.com
+0.0.0.0 api-genshin.hoyoverse.com
+0.0.0.0 os.hoyoverse.com
+0.0.0.0 log-upload-os.hoyoverse.com
+0.0.0.0 honkai-star-rail.hoyoverse.com
+0.0.0.0 wutheringwaves.com
+0.0.0.0 api.wutheringwaves.com
+
+# Pokemon & Nintendo related
+0.0.0.0 pokemon.com
+0.0.0.0 api.pokemon.com
+0.0.0.0 nintendo.com
+0.0.0.0 accounts.nintendo.com
+0.0.0.0 pokemon.co.jp
+
+# Others mobile/gacha
+0.0.0.0 zenless.hoyoverse.com
+0.0.0.0 umamusume.jp
+0.0.0.0 crimson-desert.com
+0.0.0.0 arknights.global
+0.0.0.0 yostar.net
+0.0.0.0 brawlstars.com
+0.0.0.0 supercell.com
+0.0.0.0 blizzard.com
+0.0.0.0 battle.net
+0.0.0.0 diabloimmortal.com
+0.0.0.0 fortnite.com
+0.0.0.0 epicgames.com
+0.0.0.0 roblox.com
+0.0.0.0 api.roblox.com
+0.0.0.0 oncehuman.game
+0.0.0.0 masterduel.yugioh.com
+
+# General launchers/CDN
+0.0.0.0 steamcommunity.com
+0.0.0.0 api.steampowered.com
+0.0.0.0 content.steampowered.com
+0.0.0.0 origin.com
+0.0.0.0 ea.com
+0.0.0.0 ubisoft.com
+0.0.0.0 ubi.com
+0.0.0.0 riotgames.com
+0.0.0.0 valorant.com
+0.0.0.0 cdn-game8.co
+
 
 # --- [HOYOVERSE / MIHOYO SYSTEM] ---
 0.0.0.0 hoyoverse.com
