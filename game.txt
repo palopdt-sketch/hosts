@@ -55,3 +55,10 @@ SGuard32.exe
 QRSL.exe
 tslGame.exe
 NTE_CrashHandler.exe
+Launcher.exe
+GRYPHLINK.exe
+Endfield.exe
+Popucom.exe
+ExAstris.exe
+GryphlineInstaller.exe
+CrashReporter.exe
