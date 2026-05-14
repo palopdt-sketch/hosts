@@ -1,6 +1,32 @@
 # ==========================================================
-# FILE HOSTS TỔNG HỢP CHẶN TRIỆT ĐỂ - VERSION: 2026.04.251
+# FILE HOSTS TỔNG HỢP CHẶN TRIỆT ĐỂ - VERSION: 2026.05.14
 # ==========================================================
+# Gryphline Main Domains
+0.0.0.0 gryphline.com
+0.0.0.0 www.gryphline.com
+0.0.0.0 act.gryphline.com
+0.0.0.0 d.gryphline.com
+0.0.0.0 data-t.gryphline.com
+0.0.0.0 data-c.gryphline.com
+0.0.0.0 topup.gryphline.com
+0.0.0.0 shop-jp.gryphline.com
+0.0.0.0 eventlog-service.gryphline.com
+0.0.0.0 ef-webview-biz.gryphline.com
+
+# Game Specific Subdomains
+0.0.0.0 endfield.gryphline.com
+0.0.0.0 popucom.gryphline.com
+0.0.0.0 exastris.gryphline.com
+
+# Infrastructure & CDN Domains
+0.0.0.0 gryphline.net
+0.0.0.0 hg-cdn.com
+0.0.0.0 skport.com
+0.0.0.0 gryphfrontier.net
+0.0.0.0 gryphfrontier.com
+
+
+
 # --- [Game8 SYSTEM] ---
 0.0.0.0 game8.co
 0.0.0.0 www.game8.co
