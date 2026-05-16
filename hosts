@@ -1,6 +1,11 @@
 # ==========================================================
 # FILE HOSTS TỔNG HỢP CHẶN TRIỆT ĐỂ - VERSION: 2026.05.14
 # ==========================================================
+# Chặn xem phim
+0.0.0.0 www.aphim3.com
+0.0.0.0 aphim3.com
+
+
 # Gryphline Main Domains
 0.0.0.0 gryphline.com
 0.0.0.0 www.gryphline.com
