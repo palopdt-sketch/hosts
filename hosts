@@ -1,5 +1,5 @@
 # ==========================================================
-# FILE HOSTS TỔNG HỢP CHẶN TRIỆT ĐỂ - VERSION: 2026.05.14
+# FILE HOSTS TỔNG HỢP CHẶN TRIỆT ĐỂ - VERSION: 2026.05.16
 # ==========================================================
 # =========================================================
 # DANH SÁCH CHẶN WEB XEM PHIM (CẬP NHẬT TOÀN DIỆN)
@@ -78,14 +78,10 @@
 0.0.0.0 www.trangphim.net
 0.0.0.0 www.yeuphim.tv
 0.0.0.0 www.phimtv.net
-0.0.0.0 123movies
 0.0.0.0 fmovies.to
-0.0.0.0 solarmovie
 0.0.0.0 vkool.net
 0.0.0.0 hdviet.com
-0.0.0.0 www.123movies
 0.0.0.0 www.fmovies.to
-0.0.0.0 www.solarmovie
 0.0.0.0 www.vkool.net
 0.0.0.0 www.hdviet.com
 # --- Nhóm Phim Mới & Biến thể ---
