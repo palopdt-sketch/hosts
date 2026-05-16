@@ -21,7 +21,7 @@ def is_admin():
 
 def get_version_from_content(content):
     """Tìm dòng có dạng '# Version: X.X.X'"""
-    match = re.search(r"#\s*Version:\s*([^\s\n\r]+)", content)
+    match = re.search(r"#\s*Version:\s*([^\s\n\r]+)", content, re.IGNORECASE)
     return match.group(1) if match else None
 
 def flush_dns():
