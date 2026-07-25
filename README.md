@@ -14,3 +14,6 @@ REG ADD HKLM\SOFTWARE\Policies\Google\Chrome /v BrowserAddPersonEnabled /t REG_D
 
 REG ADD HKLM\SOFTWARE\Policies\Google\Chrome /v BrowserGuestModeEnabled  /t REG_DWORD /d 0
 
+##
+
+Remove-Item "$env:APPDATA\Microsoft\Windows\Recent\*" -Force -Recurse
