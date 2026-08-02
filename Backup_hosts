@@ -1,6 +1,139 @@
 # ==========================================================
-# FILE HOSTS TỔNG HỢP CHẶN TRIỆT ĐỂ - VERSION: 2026.05.14
+# FILE HOSTS TỔNG HỢP CHẶN TRIỆT ĐỂ - VERSION: 2026.08.02
 # ==========================================================
+
+# --- [CỔNG GAME & NHÀ PHÁT HÀNH VIỆT NAM] ---
+0.0.0.0 garena.vn
+0.0.0.0 www.garena.vn
+0.0.0.0 garena.com
+0.0.0.0 www.garena.com
+0.0.0.0 garena.live
+0.0.0.0 ff.garena.com
+0.0.0.0 lienquan.garena.vn
+0.0.0.0 vng.com.vn
+0.0.0.0 www.vng.com.vn
+0.0.0.0 zingplay.com
+0.0.0.0 www.zingplay.com
+0.0.0.0 funtap.vn
+0.0.0.0 www.funtap.vn
+0.0.0.0 gamota.com
+0.0.0.0 www.gamota.com
+0.0.0.0 sohagame.vn
+0.0.0.0 www.sohagame.vn
+0.0.0.0 vtcgame.vn
+0.0.0.0 www.vtcgame.vn
+0.0.0.0 vtcmobile.vn
+0.0.0.0 24hgame.vn
+0.0.0.0 www.24hgame.vn
+0.0.0.0 gamek.vn
+0.0.0.0 www.gamek.vn
+
+# --- [GAME CỤ THỂ CHƯA CÓ TRONG DANH SÁCH] ---
+0.0.0.0 callofduty.com
+0.0.0.0 www.callofduty.com
+0.0.0.0 activision.com
+0.0.0.0 www.activision.com
+0.0.0.0 apexlegends.com
+0.0.0.0 www.apexlegends.com
+0.0.0.0 dota2.com
+0.0.0.0 www.dota2.com
+0.0.0.0 counter-strike.net
+0.0.0.0 www.counter-strike.net
+0.0.0.0 worldofwarcraft.com
+0.0.0.0 www.worldofwarcraft.com
+0.0.0.0 overwatch.com
+0.0.0.0 www.overwatch.com
+0.0.0.0 pubg.com
+0.0.0.0 www.pubg.com
+0.0.0.0 krafton.com
+0.0.0.0 mobilelegends.com
+0.0.0.0 www.mobilelegends.com
+0.0.0.0 honorofkings.com
+0.0.0.0 www.honorofkings.com
+0.0.0.0 wildrift.leagueoflegends.com
+0.0.0.0 growtopiagame.com
+0.0.0.0 innersloth.com
+0.0.0.0 www.innersloth.com
+0.0.0.0 narakathegame.com
+0.0.0.0 levelinfinite.com
+0.0.0.0 www.levelinfinite.com
+0.0.0.0 toweroffantasy-global.com
+
+# --- [LAUNCHER GAME CHÍNH THỨC] ---
+0.0.0.0 gog.com
+0.0.0.0 www.gog.com
+0.0.0.0 itch.io
+0.0.0.0 www.itch.io
+0.0.0.0 rockstargames.com
+0.0.0.0 www.rockstargames.com
+0.0.0.0 socialclub.rockstargames.com
+0.0.0.0 xbox.com
+0.0.0.0 www.xbox.com
+0.0.0.0 account.xbox.com
+0.0.0.0 playstation.com
+0.0.0.0 www.playstation.com
+0.0.0.0 store.playstation.com
+
+# --- [TRANG TẢI / CRACK / REPACK GAME] ---
+0.0.0.0 fitgirl-repacks.site
+0.0.0.0 www.fitgirl-repacks.site
+0.0.0.0 dodi-repacks.site
+0.0.0.0 www.dodi-repacks.site
+0.0.0.0 ova-games.com
+0.0.0.0 www.ova-games.com
+0.0.0.0 igg-games.com
+0.0.0.0 www.igg-games.com
+0.0.0.0 skidrowreloaded.com
+0.0.0.0 www.skidrowreloaded.com
+0.0.0.0 oceanofgames.com
+0.0.0.0 www.oceanofgames.com
+0.0.0.0 steamunlocked.net
+0.0.0.0 www.steamunlocked.net
+0.0.0.0 online-fix.me
+0.0.0.0 www.online-fix.me
+0.0.0.0 crackwatch.com
+0.0.0.0 1337x.to
+0.0.0.0 www.1337x.to
+0.0.0.0 thepiratebay.org
+0.0.0.0 www.thepiratebay.org
+0.0.0.0 kickasstorrents.to
+0.0.0.0 torrentgalaxy.to
+
+# --- [NỀN TẢNG STREAM / ESPORTS GAME] ---
+0.0.0.0 twitch.tv
+0.0.0.0 www.twitch.tv
+0.0.0.0 kick.com
+0.0.0.0 www.kick.com
+0.0.0.0 nimo.tv
+0.0.0.0 huya.com
+0.0.0.0 douyu.com
+
+# --- [CỘNG ĐỒNG / DIỄN ĐÀN GAMER] ---
+0.0.0.0 ign.com
+0.0.0.0 www.ign.com
+0.0.0.0 gamespot.com
+0.0.0.0 www.gamespot.com
+0.0.0.0 gamefaqs.gamespot.com
+0.0.0.0 pcgamer.com
+0.0.0.0 www.pcgamer.com
+0.0.0.0 kotaku.com
+0.0.0.0 polygon.com
+0.0.0.0 vn-zoom.com
+0.0.0.0 www.vn-zoom.com
+0.0.0.0 voz.vn
+0.0.0.0 www.voz.vn
+0.0.0.0 steamgifts.com
+0.0.0.0 resetera.com
+0.0.0.0 4chan.org
+
+# --- [CÔNG CỤ HACK / CHEAT / MOD GAME] ---
+0.0.0.0 wemod.com
+0.0.0.0 www.wemod.com
+0.0.0.0 cheatengine.org
+0.0.0.0 www.cheatengine.org
+0.0.0.0 nexusmods.com
+0.0.0.0 www.nexusmods.com
+
 0.0.0.0 mcoupon.nexon.com
 0.0.0.0 bluearchive.jp
 0.0.0.0 www.ldshop.gg
