@@ -119,3 +119,6 @@ PGR.exe
 BH3.exe
 crosvm.exe
 Google_Play_Games_beta.exe
+launcher-installer.exe
+BlueArchive_JP_Gamelauncher-1.7.2-setup.exe
+GameBar.exe
