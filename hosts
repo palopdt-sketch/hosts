@@ -1,5 +1,5 @@
 # ==========================================================
-# FILE HOSTS TỔNG HỢP CHẶN TRIỆT ĐỂ - VERSION: 2026.08.02
+# FILE HOSTS TỔNG HỢP CHẶN TRIỆT ĐỂ - VERSION: 2026.08.03
 # ==========================================================
 
 # --- [CỔNG GAME & NHÀ PHÁT HÀNH VIỆT NAM] ---
@@ -27,6 +27,8 @@
 0.0.0.0 www.24hgame.vn
 0.0.0.0 gamek.vn
 0.0.0.0 www.gamek.vn
+0.0.0.0 retroonline.net
+0.0.0.0 aaaaaaaaaaaaaaa
 
 # --- [GAME CỤ THỂ CHƯA CÓ TRONG DANH SÁCH] ---
 0.0.0.0 callofduty.com
