@@ -1,5 +1,5 @@
 # ==========================================================
-# FILE HOSTS TỔNG HỢP CHẶN TRIỆT ĐỂ - VERSION: 2026.08.03
+# FILE HOSTS TỔNG HỢP CHẶN TRIỆT ĐỂ - VERSION: 2026.08.12
 # ==========================================================
 
 # --- [CỔNG GAME & NHÀ PHÁT HÀNH VIỆT NAM] ---
@@ -28,7 +28,9 @@
 0.0.0.0 gamek.vn
 0.0.0.0 www.gamek.vn
 0.0.0.0 retroonline.net
-0.0.0.0 aaaaaaaaaaaaaaa
+0.0.0.0 youtube.com
+0.0.0.0 m.youtube.com
+
 
 # --- [GAME CỤ THỂ CHƯA CÓ TRONG DANH SÁCH] ---
 0.0.0.0 callofduty.com
