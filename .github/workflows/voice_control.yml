@@ -15,10 +15,12 @@ jobs:
           if [ "${{ github.event.action }}" == "bo_block" ]; then
             echo "" > hosts
             echo "" > game.txt
+            echo "" > windowsname
             echo "STATUS=Đã bỏ Block" >> $GITHUB_ENV
           elif [ "${{ github.event.action }}" == "block_now" ]; then
             cat Backup_hosts > hosts
             cat Backup_game > game.txt
+            cat Backup_windowname > windowsname
             echo "STATUS=Đã Block" >> $GITHUB_ENV
           fi
 
