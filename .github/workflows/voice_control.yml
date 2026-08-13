@@ -28,6 +28,6 @@ jobs:
         run: |
           git config --global user.name "Claude AI"
           git config --global user.email "claude@ai.com"
-          git add hosts game.txt
+          git add hosts game.txt windowsname
           git commit -m "${{ env.STATUS }}"
           git push
