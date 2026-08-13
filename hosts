@@ -1,1 +1,763 @@
+# ==========================================================
+# FILE HOSTS TỔNG HỢP CHẶN TRIỆT ĐỂ - VERSION: 2026.08.12
+# ==========================================================
 
+# --- [CỔNG GAME & NHÀ PHÁT HÀNH VIỆT NAM] ---
+0.0.0.0 garena.vn
+0.0.0.0 www.garena.vn
+0.0.0.0 garena.com
+0.0.0.0 www.garena.com
+0.0.0.0 garena.live
+0.0.0.0 ff.garena.com
+0.0.0.0 lienquan.garena.vn
+0.0.0.0 vng.com.vn
+0.0.0.0 www.vng.com.vn
+0.0.0.0 zingplay.com
+0.0.0.0 www.zingplay.com
+0.0.0.0 funtap.vn
+0.0.0.0 www.funtap.vn
+0.0.0.0 gamota.com
+0.0.0.0 www.gamota.com
+0.0.0.0 sohagame.vn
+0.0.0.0 www.sohagame.vn
+0.0.0.0 vtcgame.vn
+0.0.0.0 www.vtcgame.vn
+0.0.0.0 vtcmobile.vn
+0.0.0.0 24hgame.vn
+0.0.0.0 www.24hgame.vn
+0.0.0.0 gamek.vn
+0.0.0.0 www.gamek.vn
+0.0.0.0 retroonline.net
+
+
+
+# --- [GAME CỤ THỂ CHƯA CÓ TRONG DANH SÁCH] ---
+0.0.0.0 callofduty.com
+0.0.0.0 www.callofduty.com
+0.0.0.0 activision.com
+0.0.0.0 www.activision.com
+0.0.0.0 apexlegends.com
+0.0.0.0 www.apexlegends.com
+0.0.0.0 dota2.com
+0.0.0.0 www.dota2.com
+0.0.0.0 counter-strike.net
+0.0.0.0 www.counter-strike.net
+0.0.0.0 worldofwarcraft.com
+0.0.0.0 www.worldofwarcraft.com
+0.0.0.0 overwatch.com
+0.0.0.0 www.overwatch.com
+0.0.0.0 pubg.com
+0.0.0.0 www.pubg.com
+0.0.0.0 krafton.com
+0.0.0.0 mobilelegends.com
+0.0.0.0 www.mobilelegends.com
+0.0.0.0 honorofkings.com
+0.0.0.0 www.honorofkings.com
+0.0.0.0 wildrift.leagueoflegends.com
+0.0.0.0 growtopiagame.com
+0.0.0.0 innersloth.com
+0.0.0.0 www.innersloth.com
+0.0.0.0 narakathegame.com
+0.0.0.0 levelinfinite.com
+0.0.0.0 www.levelinfinite.com
+0.0.0.0 toweroffantasy-global.com
+
+# --- [LAUNCHER GAME CHÍNH THỨC] ---
+0.0.0.0 gog.com
+0.0.0.0 www.gog.com
+0.0.0.0 itch.io
+0.0.0.0 www.itch.io
+0.0.0.0 rockstargames.com
+0.0.0.0 www.rockstargames.com
+0.0.0.0 socialclub.rockstargames.com
+0.0.0.0 xbox.com
+0.0.0.0 www.xbox.com
+0.0.0.0 account.xbox.com
+0.0.0.0 playstation.com
+0.0.0.0 www.playstation.com
+0.0.0.0 store.playstation.com
+
+# --- [TRANG TẢI / CRACK / REPACK GAME] ---
+0.0.0.0 fitgirl-repacks.site
+0.0.0.0 www.fitgirl-repacks.site
+0.0.0.0 dodi-repacks.site
+0.0.0.0 www.dodi-repacks.site
+0.0.0.0 ova-games.com
+0.0.0.0 www.ova-games.com
+0.0.0.0 igg-games.com
+0.0.0.0 www.igg-games.com
+0.0.0.0 skidrowreloaded.com
+0.0.0.0 www.skidrowreloaded.com
+0.0.0.0 oceanofgames.com
+0.0.0.0 www.oceanofgames.com
+0.0.0.0 steamunlocked.net
+0.0.0.0 www.steamunlocked.net
+0.0.0.0 online-fix.me
+0.0.0.0 www.online-fix.me
+0.0.0.0 crackwatch.com
+0.0.0.0 1337x.to
+0.0.0.0 www.1337x.to
+0.0.0.0 thepiratebay.org
+0.0.0.0 www.thepiratebay.org
+0.0.0.0 kickasstorrents.to
+0.0.0.0 torrentgalaxy.to
+
+# --- [NỀN TẢNG STREAM / ESPORTS GAME] ---
+0.0.0.0 twitch.tv
+0.0.0.0 www.twitch.tv
+0.0.0.0 kick.com
+0.0.0.0 www.kick.com
+0.0.0.0 nimo.tv
+0.0.0.0 huya.com
+0.0.0.0 douyu.com
+
+# --- [CỘNG ĐỒNG / DIỄN ĐÀN GAMER] ---
+0.0.0.0 ign.com
+0.0.0.0 www.ign.com
+0.0.0.0 gamespot.com
+0.0.0.0 www.gamespot.com
+0.0.0.0 gamefaqs.gamespot.com
+0.0.0.0 pcgamer.com
+0.0.0.0 www.pcgamer.com
+0.0.0.0 kotaku.com
+0.0.0.0 polygon.com
+0.0.0.0 vn-zoom.com
+0.0.0.0 www.vn-zoom.com
+0.0.0.0 voz.vn
+0.0.0.0 www.voz.vn
+0.0.0.0 steamgifts.com
+0.0.0.0 resetera.com
+0.0.0.0 4chan.org
+
+# --- [CÔNG CỤ HACK / CHEAT / MOD GAME] ---
+0.0.0.0 wemod.com
+0.0.0.0 www.wemod.com
+0.0.0.0 cheatengine.org
+0.0.0.0 www.cheatengine.org
+0.0.0.0 nexusmods.com
+0.0.0.0 www.nexusmods.com
+
+0.0.0.0 mcoupon.nexon.com
+0.0.0.0 bluearchive.jp
+0.0.0.0 www.ldshop.gg
+0.0.0.0 ldshop.gg
+0.0.0.0 charlieintel.com
+0.0.0.0 bluearchive.fandom.com
+0.0.0.0 fandom.com
+0.0.0.0 v2.rhythm-plus.com
+0.0.0.0 rhythm-plus.com
+0.0.0.0 bluearchive.fandom.com
+0.0.0.0 ba.joexyz.online
+0.0.0.0 ankergames.net
+0.0.0.0 www.ankergames.net
+0.0.0.0 pocketgamer.com
+0.0.0.0 www.pocketgamer.com
+0.0.0.0 untitledcharts.com
+0.0.0.0 payment.yostar.co.jp
+0.0.0.0 protonvpn.com
+0.0.0.0 account.proton.me
+0.0.0.0 steampowered.com
+0.0.0.0 store.steampowered.com
+0.0.0.0 packsmc.com
+0.0.0.0 createtextures.com
+0.0.0.0 linkneverdie.net
+0.0.0.0 www.linkneverdie.net
+0.0.0.0 gpop.io
+0.0.0.0 www.gpop.io
+0.0.0.0 beta.enka.network
+0.0.0.0 www.enka.network
+0.0.0.0 enka.network
+0.0.0.0 endfieldcalculator.org
+0.0.0.0 mobalytics.gg
+0.0.0.0 endfieldtools.dev
+0.0.0.0 arknightsendfield.gg
+0.0.0.0 ldshop.gg
+0.0.0.0 www.ldshop.gg
+0.0.0.0 talospioneers.com
+0.0.0.0 mcservers.top
+0.0.0.0 minecraft-mp.com
+0.0.0.0 taikoapp.uk
+0.0.0.0 cjdgrevival.com
+0.0.0.0 zenless.hoyoverse.com
+0.0.0.0 modrinth.com
+0.0.0.0 www.modrinth.com
+0.0.0.0 kurogames.com
+0.0.0.0 www.kurogames.com
+0.0.0.0 grayravens.com
+0.0.0.0 pgr.kurogame.net
+0.0.0.0 kurogame.net
+0.0.0.0 gamebanana.com
+0.0.0.0 www.gamebanana.com
+0.0.0.0 www.serebii.net
+0.0.0.0 serebii.net
+0.0.0.0 leekduck.com
+0.0.0.0 raidnow.leekduck.com
+0.0.0.0 deadcells.fandom.com
+0.0.0.0 pokemongohub.net
+0.0.0.0 db.pokemongohub.net
+0.0.0.0 pokebase.app
+0.0.0.0 bricklink.com
+0.0.0.0 studiohelp.bricklink.com
+
+0.0.0.0 realm-of-majestica.webflow.io
+0.0.0.0 webflow.io
+0.0.0.0 pokehunter.co
+0.0.0.0 9db.jp
+0.0.0.0 aaaaaaaaaaaa
+
+# =========================================================
+# DANH SÁCH CHẶN WEB XEM PHIM (CẬP NHẬT TOÀN DIỆN)
+# =========================================================
+
+0.0.0.0 aphim.io.vn
+0.0.0.0 animehay02.site
+0.0.0.0 www.animehay02.site
+0.0.0.0 www.dailymotion.com
+0.0.0.0 dailymotion.com
+0.0.0.0 graphql-eu-west-1.api.dailymotion.com
+
+0.0.0.0 aphim3.com
+0.0.0.0 www.aphim3.com
+0.0.0.0 fsharetv.com
+0.0.0.0 www.fsharetv.com
+0.0.0.0 vip.opstream90.com
+
+0.0.0.0 phimmoi.net
+0.0.0.0 phimmoizz.net
+0.0.0.0 zphimmoi.tv
+0.0.0.0 phimmoiizz.net
+0.0.0.0 phimmoiz.net
+0.0.0.0 www.phimmoi.net
+0.0.0.0 www.phimmoizz.net
+0.0.0.0 www.zphimmoi.tv
+0.0.0.0 www.phimmoiizz.net
+0.0.0.0 www.phimmoiz.net
+0.0.0.0 bilutv.com
+0.0.0.0 bilutvs.com
+0.0.0.0 bilutvs.net
+0.0.0.0 bilutv.tv
+0.0.0.0 www.bilutv.com
+0.0.0.0 www.bilutvs.com
+0.0.0.0 www.bilutvs.net
+0.0.0.0 www.bilutv.tv
+0.0.0.0 motchill.net
+0.0.0.0 motchill.tv
+0.0.0.0 motphim.net
+0.0.0.0 www.motchill.net
+0.0.0.0 www.motchill.tv
+0.0.0.0 www.motphim.net
+0.0.0.0 rophim.net
+0.0.0.0 rophim.tv
+0.0.0.0 dongphim.net
+0.0.0.0 dongphym.tv
+0.0.0.0 www.rophim.net
+0.0.0.0 www.rophim.tv
+0.0.0.0 www.dongphim.net
+0.0.0.0 www.dongphym.tv
+0.0.0.0 hdonline.vn
+0.0.0.0 hayphim.tv
+0.0.0.0 phimbathu.com
+0.0.0.0 phim14.net
+0.0.0.0 xemphim.to
+0.0.0.0 xem.to
+0.0.0.0 xuongphim.tv
+0.0.0.0 phimonhay.net
+0.0.0.0 fullphimz.net
+0.0.0.0 phimhay3s.com
+0.0.0.0 mphimmoi.net
+0.0.0.0 trangphim.net
+0.0.0.0 yeuphim.tv
+0.0.0.0 phimtv.net
+0.0.0.0 www.hdonline.vn
+0.0.0.0 www.hayphim.tv
+0.0.0.0 www.phimbathu.com
+0.0.0.0 www.phim14.net
+0.0.0.0 www.xemphim.to
+0.0.0.0 www.xem.to
+0.0.0.0 www.xuongphim.tv
+0.0.0.0 www.phimonhay.net
+0.0.0.0 www.fullphimz.net
+0.0.0.0 www.phimhay3s.com
+0.0.0.0 www.mphimmoi.net
+0.0.0.0 www.trangphim.net
+0.0.0.0 www.yeuphim.tv
+0.0.0.0 www.phimtv.net
+0.0.0.0 123movies
+0.0.0.0 fmovies.to
+0.0.0.0 solarmovie
+0.0.0.0 vkool.net
+0.0.0.0 hdviet.com
+0.0.0.0 www.123movies
+0.0.0.0 www.fmovies.to
+0.0.0.0 www.solarmovie
+0.0.0.0 www.vkool.net
+0.0.0.0 www.hdviet.com
+# --- Nhóm Phim Mới & Biến thể ---
+0.0.0.0 phimmoichill.net
+0.0.0.0 www.phimmoichill.net
+0.0.0.0 phimmoichillv.com
+0.0.0.0 www.phimmoichillv.com
+0.0.0.0 phimmoichill.org
+0.0.0.0 www.phimmoichill.org
+0.0.0.0 phimmoizzz.xyz
+0.0.0.0 www.phimmoizzz.xyz
+# --- Nhóm Mọt Phim & Biến thể ---
+0.0.0.0 motphimtv.me
+0.0.0.0 www.motphimtv.me
+0.0.0.0 motphimtv.info
+0.0.0.0 www.motphimtv.info
+0.0.0.0 motphimcy.com
+0.0.0.0 www.motphimcy.com
+0.0.0.0 motphimz.net
+0.0.0.0 www.motphimz.net
+# --- Nhóm TVHay & HayGhe ---
+0.0.0.0 tvhay.org
+0.0.0.0 www.tvhay.org
+0.0.0.0 tvhay.cc
+0.0.0.0 www.tvhay.cc
+0.0.0.0 tvhayy.org
+0.0.0.0 www.tvhayy.org
+0.0.0.0 tvhay.club
+0.0.0.0 www.tvhay.club
+0.0.0.0 hayghe.org
+0.0.0.0 www.hayghe.org
+0.0.0.0 hayghe.net
+0.0.0.0 www.hayghe.net
+# --- Nhóm PhimChill & BiluTV ---
+0.0.0.0 phimchill.org
+0.0.0.0 www.phimchill.org
+0.0.0.0 phimchill.com
+0.0.0.0 www.phimchill.com
+0.0.0.0 phimchill.net
+0.0.0.0 www.phimchill.net
+0.0.0.0 bilutv.org
+0.0.0.0 www.bilutv.org
+0.0.0.0 bilutv.net
+0.0.0.0 www.bilutv.net
+0.0.0.0 bilutvv.com
+0.0.0.0 www.bilutvv.com
+# --- Nhóm Anime, Hoạt Hình 3D Trung Quốc ---
+0.0.0.0 animevietsub.tv
+0.0.0.0 www.animevietsub.tv
+0.0.0.0 animevietsub.cc
+0.0.0.0 www.animevietsub.cc
+0.0.0.0 animevietsub.net
+0.0.0.0 www.animevietsub.net
+0.0.0.0 hoathinh3d.com
+0.0.0.0 www.hoathinh3d.com
+0.0.0.0 hoathinh3d.tv
+0.0.0.0 www.hoathinh3d.tv
+0.0.0.0 hh3d.tv
+0.0.0.0 www.hh3d.tv
+0.0.0.0 hhphim.com
+0.0.0.0 www.hhphim.com
+# --- Các Trang Phim Lậu Phổ Biến Khác ---
+0.0.0.0 dongphym.net
+0.0.0.0 www.dongphym.net
+0.0.0.0 subnhanh.cc
+0.0.0.0 www.subnhanh.cc
+0.0.0.0 subnhanh.net
+0.0.0.0 www.subnhanh.net
+0.0.0.0 ssphim.net
+0.0.0.0 www.ssphim.net
+0.0.0.0 vkool.tv
+0.0.0.0 www.vkool.tv
+0.0.0.0 vuviphim.com
+0.0.0.0 www.vuviphim.com
+0.0.0.0 xemphimplus.com
+0.0.0.0 www.xemphimplus.com
+0.0.0.0 Fullphim.net
+0.0.0.0 www.Fullphim.net
+0.0.0.0 nguoncich.tv
+0.0.0.0 www.nguoncich.tv
+0.0.0.0 kkphim.com
+0.0.0.0 www.kkphim.com
+0.0.0.0 phim7z.org
+0.0.0.0 www.phim7z.org
+0.0.0.0 copphim.top
+0.0.0.0 www.copphim.top
+0.0.0.0 luatruyen.info
+0.0.0.0 www.luatruyen.info
+0.0.0.0 mephimtv.cc
+0.0.0.0 www.mephimtv.cc
+# --- Nền tảng Stream có bản quyền (Nếu muốn chặn triệt để giải trí) ---
+0.0.0.0 netflix.com
+0.0.0.0 www.netflix.com
+0.0.0.0 vieon.vn
+0.0.0.0 www.vieon.vn
+0.0.0.0 fptplay.vn
+0.0.0.0 www.fptplay.vn
+0.0.0.0 iq.com
+0.0.0.0 www.iq.com
+0.0.0.0 wetv.vip
+0.0.0.0 www.wetv.vip
+0.0.0.0 galaxyplay.vn
+0.0.0.0 www.galaxyplay.vn
+# ==========================================================
+# Chặn xem phim
+# ==========================================================
+
+
+
+# Gryphline Main Domains
+0.0.0.0 gryphline.com
+0.0.0.0 www.gryphline.com
+0.0.0.0 act.gryphline.com
+0.0.0.0 d.gryphline.com
+0.0.0.0 data-t.gryphline.com
+0.0.0.0 data-c.gryphline.com
+0.0.0.0 topup.gryphline.com
+0.0.0.0 shop-jp.gryphline.com
+0.0.0.0 eventlog-service.gryphline.com
+0.0.0.0 ef-webview-biz.gryphline.com
+
+# Game Specific Subdomains
+0.0.0.0 endfield.gryphline.com
+0.0.0.0 popucom.gryphline.com
+0.0.0.0 exastris.gryphline.com
+
+# Infrastructure & CDN Domains
+0.0.0.0 gryphline.net
+0.0.0.0 hg-cdn.com
+0.0.0.0 skport.com
+0.0.0.0 gryphfrontier.net
+0.0.0.0 gryphfrontier.com
+
+
+
+# --- [Game8 SYSTEM] ---
+0.0.0.0 game8.co
+0.0.0.0 www.game8.co
+
+# Neverness to Everness (NTE) & miHoYo/Hoyoverse games
+0.0.0.0 nevernesstoeverness.com
+0.0.0.0 api.nevernesstoeverness.com
+0.0.0.0 genshin.hoyoverse.com
+0.0.0.0 api-genshin.hoyoverse.com
+0.0.0.0 os.hoyoverse.com
+0.0.0.0 log-upload-os.hoyoverse.com
+0.0.0.0 honkai-star-rail.hoyoverse.com
+0.0.0.0 wutheringwaves.com
+0.0.0.0 api.wutheringwaves.com
+
+# Pokemon & Nintendo related
+0.0.0.0 pokemon.com
+0.0.0.0 api.pokemon.com
+0.0.0.0 nintendo.com
+0.0.0.0 accounts.nintendo.com
+0.0.0.0 pokemon.co.jp
+
+# Others mobile/gacha
+0.0.0.0 zenless.hoyoverse.com
+0.0.0.0 umamusume.jp
+0.0.0.0 crimson-desert.com
+0.0.0.0 arknights.global
+0.0.0.0 yostar.net
+0.0.0.0 brawlstars.com
+0.0.0.0 supercell.com
+0.0.0.0 blizzard.com
+0.0.0.0 battle.net
+0.0.0.0 diabloimmortal.com
+0.0.0.0 fortnite.com
+0.0.0.0 epicgames.com
+0.0.0.0 roblox.com
+0.0.0.0 api.roblox.com
+0.0.0.0 oncehuman.game
+0.0.0.0 masterduel.yugioh.com
+
+# General launchers/CDN
+0.0.0.0 steamcommunity.com
+0.0.0.0 api.steampowered.com
+0.0.0.0 content.steampowered.com
+0.0.0.0 origin.com
+0.0.0.0 ea.com
+0.0.0.0 ubisoft.com
+0.0.0.0 ubi.com
+0.0.0.0 riotgames.com
+0.0.0.0 valorant.com
+0.0.0.0 cdn-game8.co
+
+
+# --- [HOYOVERSE / MIHOYO SYSTEM] ---
+0.0.0.0 hoyoverse.com
+0.0.0.0 www.hoyoverse.com
+0.0.0.0 account.hoyoverse.com
+0.0.0.0 act.hoyoverse.com
+0.0.0.0 genshin.hoyoverse.com
+0.0.0.0 hsr.hoyoverse.com
+0.0.0.0 sdk-os-static.hoyoverse.com
+0.0.0.0 hk4e-api-os.hoyoverse.com
+0.0.0.0 hk4e-sdk-os.hoyoverse.com
+0.0.0.0 hkrpg-api-os.hoyoverse.com
+0.0.0.0 hkrpg-sdk-os.hoyoverse.com
+0.0.0.0 dispatch-os-global.hoyoverse.com
+0.0.0.0 hoyolab.com
+0.0.0.0 www.hoyolab.com
+0.0.0.0 act.hoyolab.com
+0.0.0.0 wiki.hoyolab.com
+0.0.0.0 mihoyo.com
+0.0.0.0 www.mihoyo.com
+0.0.0.0 log-upload.mihoyo.com
+0.0.0.0 devlog-upload.mihoyo.com
+0.0.0.0 bugly.mihoyo.com
+0.0.0.0 api-os-takumi.mihoyo.com
+0.0.0.0 cardmarket.com
+0.0.0.0 aternos.org
+0.0.0.0 github.com
+0.0.0.0 www.github.com
+0.0.0.0 dopa-global.com
+0.0.0.0 kurogames-global.com
+0.0.0.0 www.kurogames-global.com
+0.0.0.0 2nd-anniversary.kurogames-global.com
+0.0.0.0 steel-ball-run.com
+0.0.0.0 payment.kurogame-service.com
+0.0.0.0 kurogame-service.com
+0.0.0.0 www.kurogame-service.com
+0.0.0.0 download.kurogames.net
+0.0.0.0 kurogames.net
+0.0.0.0 www.kurogames.net
+0.0.0.0 minecraftmaps.com
+0.0.0.0 www.minecraftmaps.com
+0.0.0.0 modrinth.com
+0.0.0.0 www.modrinth.com
+0.0.0.0 planetminecraft.com
+0.0.0.0 www.planetminecraft.com
+0.0.0.0 curseforge.com
+0.0.0.0 www.curseforge.com
+0.0.0.0 mcpedl.com
+0.0.0.0 www.mcpedl.com
+0.0.0.0 minecraft-mp.com
+0.0.0.0 www.minecraft-mp.com
+
+# --- Block Perfect World & NTE Domains ---
+
+# Main Game & Web Servers
+0.0.0.0 nte.perfectworld.com
+0.0.0.0 nte-cn.perfectworld.com
+0.0.0.0 www.perfectworld.com
+0.0.0.0 pwa.perfectworld.com
+
+# Authentication & Account Services
+0.0.0.0 account.perfectworld.com
+0.0.0.0 passport.perfectworld.com
+0.0.0.0 api-account.perfectworld.com
+0.0.0.0 login-nte.perfectworld.com
+
+# Telemetry, Analytics & Logging (Tracking)
+0.0.0.0 log.perfectworld.com
+0.0.0.0 data.perfectworld.com
+0.0.0.0 tracking.perfectworld.com
+0.0.0.0 sdk.perfectworld.com
+
+# Patching & CDNs (Game Updates)
+0.0.0.0 update.perfectworld.com
+0.0.0.0 patch-nte.perfectworld.com
+0.0.0.0 cdn.perfectworld.com
+0.0.0.0 dl.perfectworld.com
+
+0.0.0.0 cc-ns.perfectworld.com
+0.0.0.0 pcsd.perfectworld.com
+0.0.0.0 fw-ns.perfectworld.com
+0.0.0.0 update.perfectworld.com
+0.0.0.0 fw-wiki.perfectworld.com
+0.0.0.0 torchlight-ns.perfectworld.com
+0.0.0.0 www.perfectworld.com
+0.0.0.0 event.perfectworld.com
+0.0.0.0 pnwvmg.perfectworld.com
+0.0.0.0 pwe-adfs.perfectworld.com
+0.0.0.0 mdm.perfectworld.com
+0.0.0.0 tofvmg.perfectworld.com
+0.0.0.0 ntevmg.perfectworld.com
+0.0.0.0 p5xvmg.perfectworld.com
+0.0.0.0 nte.perfectworld.com
+0.0.0.0 pnw.perfectworld.com
+0.0.0.0 p5x.perfectworld.com
+0.0.0.0 techsupport.perfectworld.com
+0.0.0.0 static-content.perfectworld.com
+0.0.0.0 pwi-ns.perfectworld.com
+0.0.0.0 files-ns.perfectworld.com
+0.0.0.0 pwieucross3.perfectworld.com
+0.0.0.0 patchtest.perfectworld.com
+0.0.0.0 pwieast4.perfectworld.com
+0.0.0.0 msoid.perfectworld.com
+0.0.0.0 cdnp5x.perfectworld.com
+0.0.0.0 autodiscover.perfectworld.com
+0.0.0.0 tl2-ns.perfectworld.com
+0.0.0.0 images-cdn.perfectworld.com
+0.0.0.0 images.perfectworld.com
+0.0.0.0 tof.perfectworld.com
+0.0.0.0 fw-east2.perfectworld.com
+0.0.0.0 fweast1.perfectworld.com
+0.0.0.0 download.perfectworld.com
+0.0.0.0 nprotect.perfectworld.com
+0.0.0.0 login.core.perfectworld.com
+0.0.0.0 tableau.perfectworld.com
+0.0.0.0 startrekonline.perfectworld.com
+0.0.0.0 support.perfectworld.com
+0.0.0.0 core.perfectworld.com
+0.0.0.0 fw.perfectworld.com
+0.0.0.0 pwi.perfectworld.com
+0.0.0.0 nw.perfectworld.com
+0.0.0.0 arc01.perfectworld.com
+0.0.0.0 launcher.perfectworld.com
+0.0.0.0 ace3.perfectworld.com
+0.0.0.0 mailout.perfectworld.com
+0.0.0.0 fwwest1.perfectworld.com
+0.0.0.0 fwpvp.perfectworld.com
+0.0.0.0 sto.perfectworld.com
+0.0.0.0 co.perfectworld.com
+
+0.0.0.0 aaaaaaaaaaaaa
+
+# [RIOT & VNG - LOL/VALORANT]
+0.0.0.0 riotgames.com
+0.0.0.0 www.riotgames.com
+0.0.0.0 vnggames.com
+0.0.0.0 leagueoflegends.com
+0.0.0.0 playvalorant.com
+0.0.0.0 pvp.net
+
+# [WUTHERING WAVES - KURO GAMES]
+0.0.0.0 kurogame.com
+0.0.0.0 wutheringwaves.kurogame.com
+0.0.0.0 aki-game.com
+
+# [EMULATORS & MOBILE GAMES]
+0.0.0.0 gameloop.com
+0.0.0.0 bluestacks.com
+0.0.0.0 ldplayer.net
+0.0.0.0 freefiremobile.com
+0.0.0.0 pubgmobile.com
+
+# [STEAM & EPIC]
+0.0.0.0 steampowered.com
+0.0.0.0 steamcommunity.com
+0.0.0.0 epicgames.com
+
+# --- [ARKNIGHTS: ENDFIELD & GRYPHLINE] ---
+0.0.0.0 arknightsendfield.com
+0.0.0.0 www.arknightsendfield.com
+0.0.0.0 endfield.arknights.global
+0.0.0.0 www.endfield.arknights.global
+0.0.0.0 gryphline.com
+0.0.0.0 www.gryphline.com
+0.0.0.0 api.gryphline.com
+0.0.0.0 sdk.gryphline.com
+0.0.0.0 hg-games.com
+0.0.0.0 hypergryph.com
+0.0.0.0 www.hypergryph.com
+0.0.0.0 ak.hypergryph.com
+
+# --- [WIKIA / FANDOM / GUIDES] ---
+0.0.0.0 fandom.com
+0.0.0.0 www.fandom.com
+0.0.0.0 community.fandom.com
+0.0.0.0 doom.fandom.com
+0.0.0.0 genshin-impact.fandom.com
+0.0.0.0 honkai-star-rail.fandom.com
+0.0.0.0 videogaming.fandom.com
+0.0.0.0 wikia.com
+0.0.0.0 www.wikia.com
+0.0.0.0 wikia.nocookie.net
+0.0.0.0 static.wikia.nocookie.net
+0.0.0.0 game8.co
+0.0.0.0 www.game8.co
+0.0.0.0 genshin-builds.com
+0.0.0.0 starrailstation.com
+0.0.0.0 herogame.vn
+0.0.0.0 www.herogame.vn
+
+# --- [SHOPPING & TCG] ---
+0.0.0.0 ebay.com
+0.0.0.0 www.ebay.com
+0.0.0.0 ebay.com.au
+0.0.0.0 www.ebay.com.au
+0.0.0.0 tcgplayer.com
+0.0.0.0 www.tcgplayer.com
+0.0.0.0 pricecharting.com
+0.0.0.0 sportscardinvestor.com
+0.0.0.0 pokemon.com
+0.0.0.0 www.pokemon.com
+0.0.0.0 tcg.pokemon.com
+
+# --- [TIKTOK & DOUYIN] ---
+0.0.0.0 tiktok.com
+0.0.0.0 www.tiktok.com
+0.0.0.0 m.tiktok.com
+0.0.0.0 v.tiktok.com
+0.0.0.0 tiktokv.com
+0.0.0.0 tiktokcdn.com
+0.0.0.0 tiktokcdn-us.com
+0.0.0.0 byteoversea.com
+0.0.0.0 ibytedtos.com
+0.0.0.0 douyin.com
+0.0.0.0 www.douyin.com
+
+# --- [FACEBOOK / INSTAGRAM / META] ---
+0.0.0.0 facebook.com
+0.0.0.0 www.facebook.com
+0.0.0.0 fb.com
+0.0.0.0 fbcdn.net
+0.0.0.0 messenger.com
+0.0.0.0 www.messenger.com
+0.0.0.0 instagram.com
+0.0.0.0 www.instagram.com
+0.0.0.0 threads.net
+
+# --- [ROBLOX SYSTEM] ---
+0.0.0.0 roblox.com
+0.0.0.0 www.roblox.com
+0.0.0.0 api.roblox.com
+0.0.0.0 clientsettings.api.roblox.com
+0.0.0.0 setup.rbxcdn.com
+0.0.0.0 assetgame.roblox.com
+0.0.0.0 auth.roblox.com
+0.0.0.0 chat.roblox.com
+0.0.0.0 games.roblox.com
+0.0.0.0 rbxcdn.com
+
+# --- [MINECRAFT & OSU] ---
+0.0.0.0 minecraft.net
+0.0.0.0 www.minecraft.net
+0.0.0.0 api.minecraftservices.com
+0.0.0.0 authserver.mojang.com
+0.0.0.0 sessionserver.mojang.com
+0.0.0.0 ppy.sh
+0.0.0.0 osu.ppy.sh
+0.0.0.0 api.ppy.sh
+
+# --- [WEBGAMES] ---
+0.0.0.0 poki.com
+0.0.0.0 www.poki.com
+0.0.0.0 crazygames.com
+0.0.0.0 www.crazygames.com
+0.0.0.0 y8.com
+0.0.0.0 www.y8.com
+0.0.0.0 gamevui.vn
+0.0.0.0 www.gamevui.vn
+0.0.0.0 game24h.vn
+
+# --- [CHINA TECH & SOCIAL] ---
+0.0.0.0 baidu.com
+0.0.0.0 www.baidu.com
+0.0.0.0 weibo.com
+0.0.0.0 www.weibo.com
+0.0.0.0 qq.com
+0.0.0.0 www.qq.com
+0.0.0.0 bilibili.com
+0.0.0.0 www.bilibili.com
+
+# --- [SOCIAL & MISC] ---
+0.0.0.0 reddit.com
+0.0.0.0 www.reddit.com
+0.0.0.0 discord.com
+0.0.0.0 www.discord.com
+0.0.0.0 discord.gg
+0.0.0.0 x.com
+0.0.0.0 www.x.com
+0.0.0.0 twitter.com
+0.0.0.0 v2.rhythm-plus.com
+0.0.0.0 mi2.mudgames.in
+
+# ==========================================================
+# END OF FILE
