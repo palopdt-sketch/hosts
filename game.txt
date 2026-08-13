@@ -123,3 +123,4 @@ launcher-installer.exe
 BlueArchive_JP_Gamelauncher-1.7.2-setup.exe
 GameBar.exe
 ZFGameBrowser.exe
+Launcher.exe
