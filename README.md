@@ -1,7 +1,9 @@
 # hosts
 hosts
 
-python -m PyInstaller --noconsole --onefile --uac-admin your_script.py
+python -m PyInstaller --noconsole --onefile --uac-admin  your_script.py
+
+winget install ImageMagick.ImageMagick
 
 ##
 
