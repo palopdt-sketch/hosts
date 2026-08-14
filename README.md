@@ -1,6 +1,7 @@
 # hosts
 hosts
-pyinstaller --noconsole --onefile --uac-admin your_script.py
+
+python -m PyInstaller --noconsole --onefile --uac-admin your_script.py
 
 ##
 
