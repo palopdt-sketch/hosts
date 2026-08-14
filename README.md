@@ -7,6 +7,8 @@ winget install ImageMagick.ImageMagick
 
 magick appicon.png app.ico
 
+python -m PyInstaller --noconsole --onefile --uac-admin --icon=app.ico localpy.py
+
 ##
 
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome" /v AllowDeletingBrowserHistory /t REG_DWORD /d 0 /f
