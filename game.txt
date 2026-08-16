@@ -145,3 +145,17 @@ DMC-DevilMayCry.exe
 DevilMayCry5.exe
 dmc1.exe
 dmc2.exe
+EpicWebHelper.exe
+Palworld-Win64-Shipping.exe
+PenguinHotel.exe
+PenguinHotel-Win64-Shipping.exe
+GhostOfTsushima.exe
+crs-video.exe
+crs-handler.exe
+ElectronicsThriftStore.exe
+DSClient.exe
+DSClient-Win64-Shipping.exe
+Grounded2.exe
+Grounded2Steam-Win64-Shipping.exe
+start_protected_game.exe
+easyanticheat_eos_setup.exe
