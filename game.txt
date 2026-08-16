@@ -123,7 +123,6 @@ launcher-installer.exe
 BlueArchive_JP_Gamelauncher-1.7.2-setup.exe
 GameBar.exe
 ZFGameBrowser.exe
-Launcher.exe
 Games.exe
 deadcells.exe
 BlueArchive_JP_Gamelauncher.exe
@@ -146,4 +145,3 @@ DMC-DevilMayCry.exe
 DevilMayCry5.exe
 dmc1.exe
 dmc2.exe
-dmc3.exe
