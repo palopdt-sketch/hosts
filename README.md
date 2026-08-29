@@ -5,6 +5,8 @@ python -m PyInstaller --noconsole --onefile --uac-admin  your_script.py
 
 python -m PyInstaller --clean --noconfirm --windowed --onefile --uac-admin --icon=app.ico --name=CasioCal casio_calculator.py
 
+python -m PyInstaller --clean --noconfirm --windowed --onefile --add-data "app.png;." --uac-admin --icon=app.png --name=ManagerChungThu manager.py
+
 winget install ImageMagick.ImageMagick
 
 magick appicon.png app.ico
