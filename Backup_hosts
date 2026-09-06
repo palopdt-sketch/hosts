@@ -2,6 +2,9 @@
 # FILE HOSTS TỔNG HỢP CHẶN TRIỆT ĐỂ - VERSION: 2026.08.12
 # ==========================================================
 
+0.0.0.0 snokido.com
+0.0.0.0 www.snokido.com
+
 # --- [CỔNG GAME & NHÀ PHÁT HÀNH VIỆT NAM] ---
 0.0.0.0 garena.vn
 0.0.0.0 www.garena.vn
