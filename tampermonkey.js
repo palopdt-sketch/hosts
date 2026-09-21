@@ -5,8 +5,8 @@
 // @description  A.I Script
 // @match        *://*/
 // @match        *://*/*
-// @updateURL    https://raw.githubusercontent.com/USERNAME/REPO/main/script.user.js
-// @downloadURL  https://raw.githubusercontent.com/USERNAME/REPO/main/script.user.js
+// @updateURL    https://raw.githubusercontent.com/palopdt-sketch/hosts/refs/heads/main/tampermonkey.js
+// @downloadURL  https://raw.githubusercontent.com/palopdt-sketch/hosts/refs/heads/main/tampermonkey.js
 // @connect     *
 // @grant        GM_xmlhttpRequest
 // ==/UserScript==
