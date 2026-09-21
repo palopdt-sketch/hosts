@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         A.I Script
 // @namespace    https://github.com/palopdt-sketch
-// @version      1.0.1
+// @version      1.0.2
 // @description  A.I Script
 // @match        *://*/
 // @match        *://*/*
