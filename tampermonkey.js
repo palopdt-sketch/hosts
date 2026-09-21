@@ -1,9 +1,8 @@
 // ==UserScript==
 // @name         A.I Script
 // @namespace    https://github.com/palopdt-sketch
-// @version      1.0.2
+// @version      1.0.3
 // @description  A.I Script
-// @match        *://*/
 // @match        *://*/*
 // @updateURL    https://raw.githubusercontent.com/palopdt-sketch/hosts/refs/heads/main/tampermonkey.js
 // @downloadURL  https://raw.githubusercontent.com/palopdt-sketch/hosts/refs/heads/main/tampermonkey.js
@@ -12,5 +11,7 @@
 // ==/UserScript==
 
 (function () {
-    alert("1.0.2");
+    'use strict';
+
+    alert("1.0.3");
 })();
