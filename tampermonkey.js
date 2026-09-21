@@ -12,5 +12,5 @@
 // ==/UserScript==
 
 (function () {
-    alert("test2");
+    alert("1.0.2");
 })();
