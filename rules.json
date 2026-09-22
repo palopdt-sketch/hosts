@@ -10,7 +10,7 @@
     "source": {
       "matchType": "contains",
       "resourceTypes": [
-        "other"
+        "script"
       ],
       "value": "ad_header.js"
     }
