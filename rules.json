@@ -1,0 +1,34 @@
+[
+  {
+    "enabled": true,
+    "id": 1,
+    "name": "ad_header.js",
+    "redirectUrl": "http://localhost/BrainXYZ/test.js",
+    "requestHeaders": [],
+    "responseHeaders": [],
+    "ruleType": "redirect",
+    "source": {
+      "matchType": "contains",
+      "resourceTypes": [
+        "other"
+      ],
+      "value": "ad_header.js"
+    }
+  },
+  {
+    "enabled": true,
+    "id": 2,
+    "name": "guard-check.js",
+    "redirectUrl": "http://localhost/BrainXYZ/test.js",
+    "requestHeaders": [],
+    "responseHeaders": [],
+    "ruleType": "redirect",
+    "source": {
+      "matchType": "contains",
+      "resourceTypes": [
+        "script"
+      ],
+      "value": "guard-check.js"
+    }
+  }
+]
