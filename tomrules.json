@@ -1,0 +1,52 @@
+[
+  {
+    "_syncSource": true,
+    "enabled": true,
+    "id": 25,
+    "name": "ad_header.js",
+    "redirectUrl": "http://192.168.68.206/BrainXYZ/test.js",
+    "requestHeaders": [],
+    "responseHeaders": [],
+    "ruleType": "redirect",
+    "source": {
+      "matchType": "contains",
+      "resourceTypes": [
+        "script"
+      ],
+      "value": "ad_header.js"
+    }
+  },
+  {
+    "_syncSource": true,
+    "enabled": true,
+    "id": 26,
+    "name": "guard-check.js",
+    "redirectUrl": "http://192.168.68.206/BrainXYZ/test.js",
+    "requestHeaders": [],
+    "responseHeaders": [],
+    "ruleType": "redirect",
+    "source": {
+      "matchType": "contains",
+      "resourceTypes": [
+        "script"
+      ],
+      "value": "guard-check.js"
+    }
+  },
+  {
+    "id": 27,
+    "name": "music youtube search",
+    "enabled": true,
+    "ruleType": "redirect",
+    "source": {
+      "matchType": "wildcard",
+      "value": "https://music.youtube.com/search?q=*",
+      "resourceTypes": [
+        "main_frame"
+      ]
+    },
+    "redirectUrl": "https://music.youtube.com/",
+    "requestHeaders": [],
+    "responseHeaders": []
+  }
+]
