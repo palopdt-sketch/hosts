@@ -16,11 +16,13 @@ jobs:
             echo "" > hosts
             echo "" > game.txt
             echo "" > windowsname
+            echo "" > tomrules.json
             echo "STATUS=Đã bỏ Block" >> $GITHUB_ENV
           elif [ "${{ github.event.action }}" == "block_now" ]; then
             cat Backup_hosts > hosts
             cat Backup_game > game.txt
             cat Backup_windowname > windowsname
+            cat Backup_tomrules.json > tomrules.json
             echo "STATUS=Đã Block" >> $GITHUB_ENV
           fi
 
@@ -28,6 +30,6 @@ jobs:
         run: |
           git config --global user.name "Claude AI"
           git config --global user.email "claude@ai.com"
-          git add hosts game.txt windowsname
+          git add hosts game.txt windowsname tomrules.json
           git commit -m "${{ env.STATUS }}"
           git push
