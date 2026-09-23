@@ -1,34 +1,64 @@
-[
-  {
-    "enabled": true,
-    "id": 1,
-    "name": "ad_header.js",
-    "redirectUrl": "http://192.168.68.206/BrainXYZ/test.js",
-    "requestHeaders": [],
-    "responseHeaders": [],
-    "ruleType": "redirect",
-    "source": {
-      "matchType": "contains",
-      "resourceTypes": [
-        "script"
-      ],
-      "value": "ad_header.js"
+{
+  "rules": [
+    {
+      "enabled": true,
+      "id": 27,
+      "name": "music youtube search",
+      "redirectUrl": "https://music.youtube.com/",
+      "requestHeaders": [],
+      "responseHeaders": [],
+      "ruleType": "redirect",
+      "source": {
+        "matchType": "wildcard",
+        "resourceTypes": [
+          "main_frame"
+        ],
+        "value": "https://music.youtube.com/search?q=*"
+      }
+    },
+    {
+      "_syncSource": true,
+      "enabled": true,
+      "id": 164,
+      "name": "ad_header.js",
+      "redirectUrl": "http://192.168.68.206/BrainXYZ/test.js",
+      "requestHeaders": [],
+      "responseHeaders": [],
+      "ruleType": "redirect",
+      "source": {
+        "matchType": "contains",
+        "resourceTypes": [
+          "script"
+        ],
+        "value": "ad_header.js"
+      }
+    },
+    {
+      "_syncSource": true,
+      "enabled": true,
+      "id": 165,
+      "name": "guard-check.js",
+      "redirectUrl": "http://192.168.68.206/BrainXYZ/test.js",
+      "requestHeaders": [],
+      "responseHeaders": [],
+      "ruleType": "redirect",
+      "source": {
+        "matchType": "contains",
+        "resourceTypes": [
+          "script"
+        ],
+        "value": "guard-check.js"
+      }
     }
-  },
-  {
-    "enabled": true,
-    "id": 2,
-    "name": "guard-check.js",
-    "redirectUrl": "http://192.168.68.206/BrainXYZ/test.js",
-    "requestHeaders": [],
-    "responseHeaders": [],
-    "ruleType": "redirect",
-    "source": {
-      "matchType": "contains",
-      "resourceTypes": [
-        "script"
-      ],
-      "value": "guard-check.js"
+  ],
+  "hideRules": [
+    {
+      "createdAt": 1790123310349,
+      "domain": "music.youtube.com",
+      "enabled": true,
+      "id": 1,
+      "label": ".search-box.style-scope.ytmusic-search-box",
+      "selector": ".search-box.style-scope.ytmusic-search-box"
     }
-  }
-]
+  ]
+}
