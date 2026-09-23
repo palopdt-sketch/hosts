@@ -165,3 +165,4 @@ Ultimate Custom Night.exe
 Wuthering Waves.exe
 ClearThirdParty.exe
 LimbusCompany.exe
+OCCT.exe
