@@ -17,6 +17,22 @@
       }
     },
     {
+      "id": 4818,
+      "name": "Shorts",
+      "enabled": true,
+      "ruleType": "redirect",
+      "source": {
+        "matchType": "wildcard",
+        "value": "https://www.youtube.com/shorts",
+        "resourceTypes": [
+          "main_frame"
+        ]
+      },
+      "redirectUrl": "https://www.youtube.com/",
+      "requestHeaders": [],
+      "responseHeaders": []
+    },
+    {
       "enabled": true,
       "id": 4721,
       "name": "Block shorts 1",
