@@ -118,65 +118,372 @@
   ],
   "hideRules": [
     {
-      "createdAt": 1790600021828,
+      "createdAt": 1790609593393,
       "domain": "youtube.com",
       "enabled": true,
-      "id": 1528,
-      "label": ".ytChipBarViewModelHost.style-scope.ytd-section-list-renderer",
-      "selector": ".ytChipBarViewModelHost.style-scope.ytd-section-list-renderer"
+      "id": 1663,
+      "label": "Ẩn dải video Shorts ở trang chủ / kết quả tìm kiếm",
+      "selector": "ytd-rich-section-renderer:has(ytd-rich-shelf-renderer[is-shorts]), ytd-reel-shelf-renderer"
     },
     {
-      "createdAt": 1790600040467,
+      "createdAt": 1790609593393,
       "domain": "youtube.com",
       "enabled": true,
-      "id": 1534,
+      "id": 1664,
+      "label": "Ẩn nút Shorts ở sidebar",
+      "selector": "ytd-guide-entry-renderer:has(a[title=\"Shorts\"]), ytd-mini-guide-entry-renderer:has(a[title=\"Shorts\"]), ytd-mini-guide-entry-renderer[aria-label=\"Shorts\"], ytd-guide-entry-renderer:has(a[href^=\"/shorts\"])"
+    },
+    {
+      "createdAt": 1790609593394,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1665,
+      "label": "Ẩn Box You",
+      "selector": "top-level-buttons:has(div[id=\"top-level-buttons-computed\"])"
+    },
+    {
+      "createdAt": 1790609593394,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1666,
+      "label": "Ẩn nút Like/Share",
+      "selector": "yt-live-chat-renderer:has(#top-level-buttons-computed)"
+    },
+    {
+      "createdAt": 1790609593395,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1667,
+      "label": "Ẩn Box chat",
+      "selector": "yt-live-chat-app:has(#contents)"
+    },
+    {
+      "createdAt": 1790609696575,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1669,
+      "label": "ytd-menu-renderer:has(#top-level-buttons-computed)",
+      "selector": "ytd-menu-renderer:has(#top-level-buttons-computed)"
+    },
+    {
+      "createdAt": 1790609767293,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1670,
+      "label": ".style-scope.ytd-subscribe-button-renderer",
+      "selector": ".style-scope.ytd-subscribe-button-renderer"
+    },
+    {
+      "createdAt": 1790609785447,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1671,
       "label": ".style-scope.ytd-feed-filter-chip-bar-renderer",
       "selector": ".style-scope.ytd-feed-filter-chip-bar-renderer"
     },
     {
-      "_syncSource": true,
-      "createdAt": 1790601835518,
-      "domain": "music.youtube.com",
-      "enabled": true,
-      "id": 1560,
-      "label": ".search-box.style-scope.ytmusic-search-box",
-      "selector": ".search-box.style-scope.ytmusic-search-box"
-    },
-    {
-      "_syncSource": true,
-      "createdAt": 1790601835526,
+      "createdAt": 1790609858471,
       "domain": "youtube.com",
       "enabled": true,
-      "id": 1561,
-      "label": ".ytSearchboxComponentInputContainer",
-      "selector": ".ytSearchboxComponentInputContainer"
+      "id": 1672,
+      "label": ".style-scope.yt-chip-cloud-renderer",
+      "selector": ".style-scope.yt-chip-cloud-renderer"
     },
     {
-      "_syncSource": true,
-      "createdAt": 1790601835532,
+      "createdAt": 1790609873176,
       "domain": "youtube.com",
       "enabled": true,
-      "id": 1562,
-      "label": ".ytSpecTouchFeedbackShapeStroke",
-      "selector": ".ytSpecTouchFeedbackShapeStroke"
+      "id": 1673,
+      "label": ".style-scope.ytd-watch-next-secondary-results-renderer",
+      "selector": ".style-scope.ytd-watch-next-secondary-results-renderer"
     },
     {
-      "_syncSource": true,
-      "createdAt": 1790601835535,
+      "createdAt": 1790609930256,
       "domain": "youtube.com",
       "enabled": true,
-      "id": 1563,
-      "label": ".ytSpecTouchFeedbackShapeFill",
-      "selector": ".ytSpecTouchFeedbackShapeFill"
+      "id": 1674,
+      "label": ".style-scope.ytd-rich-section-renderer",
+      "selector": ".style-scope.ytd-rich-section-renderer"
     },
     {
-      "_syncSource": true,
-      "createdAt": 1790601835544,
+      "createdAt": 1790613337178,
       "domain": "youtube.com",
       "enabled": true,
-      "id": 1564,
-      "label": "yt-button-shape",
-      "selector": "yt-button-shape"
+      "id": 1675,
+      "label": ".style-scope.tp-yt-iron-dropdown",
+      "selector": ".style-scope.tp-yt-iron-dropdown"
+    },
+    {
+      "createdAt": 1790613364177,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1676,
+      "label": ".style-scope.ytd-guide-collapsible-section-entry-renderer",
+      "selector": ".style-scope.ytd-guide-collapsible-section-entry-renderer"
+    },
+    {
+      "createdAt": 1790614520914,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1679,
+      "label": "ytd-guide-section-renderer.style-scope.ytd-guide-renderer[guide-persistent-and-visible]:nth-of-type(5)",
+      "selector": "ytd-guide-section-renderer.style-scope.ytd-guide-renderer[guide-persistent-and-visible]:nth-of-type(5)"
+    },
+    {
+      "createdAt": 1790614556738,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1680,
+      "label": "ytd-guide-section-renderer.style-scope.ytd-guide-renderer[guide-persistent-and-visible]:nth-of-type(4)",
+      "selector": "ytd-guide-section-renderer.style-scope.ytd-guide-renderer[guide-persistent-and-visible]:nth-of-type(4)"
+    },
+    {
+      "createdAt": 1790614589684,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1681,
+      "label": "ytd-guide-section-renderer:nth-of-type(6)",
+      "selector": "ytd-guide-section-renderer:nth-of-type(6)"
+    },
+    {
+      "createdAt": 1790614634249,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1682,
+      "label": "div#footer.style-scope.ytd-guide-renderer > div#guide-links-primary.style-scope.ytd-guide-renderer",
+      "selector": "div#footer.style-scope.ytd-guide-renderer > div#guide-links-primary.style-scope.ytd-guide-renderer"
+    },
+    {
+      "createdAt": 1790614664469,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1683,
+      "label": "div#footer.style-scope.ytd-guide-renderer > div#guide-links-secondary.style-scope.ytd-guide-renderer",
+      "selector": "div#footer.style-scope.ytd-guide-renderer > div#guide-links-secondary.style-scope.ytd-guide-renderer"
+    },
+    {
+      "createdAt": 1790614733980,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1684,
+      "label": "ytd-item-section-renderer#sections.style-scope.ytd-comments[initial-count][first-lockup-no-top-margin][lockup-container-type][header-style][not-sticky][exp-fix-playlist-header][enable-related-chips-caching][secondary-grid-columns][section-identifier]",
+      "selector": "ytd-item-section-renderer#sections.style-scope.ytd-comments[initial-count][first-lockup-no-top-margin][lockup-container-type][header-style][not-sticky][exp-fix-playlist-header][enable-related-chips-caching][secondary-grid-columns][section-identifier]"
+    },
+    {
+      "createdAt": 1790614865379,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1685,
+      "label": "yt-tab-shape.ytTabShapeHost.ytTabShapeHostClickable[role][tabindex][aria-selected][tab-title]:nth-of-type(3)",
+      "selector": "yt-tab-shape.ytTabShapeHost.ytTabShapeHostClickable[role][tabindex][aria-selected][tab-title]:nth-of-type(3)"
+    },
+    {
+      "createdAt": 1790614882337,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1686,
+      "label": "yt-tab-shape.ytTabShapeHost.ytTabShapeHostClickable[role][tabindex][aria-selected][tab-title]:nth-of-type(4)",
+      "selector": "yt-tab-shape.ytTabShapeHost.ytTabShapeHostClickable[role][tabindex][aria-selected][tab-title]:nth-of-type(4)"
+    },
+    {
+      "createdAt": 1790614897419,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1687,
+      "label": "yt-tab-shape.ytTabShapeHost.ytTabShapeHostClickable[role][tabindex][aria-selected][tab-title]:nth-of-type(5)",
+      "selector": "yt-tab-shape.ytTabShapeHost.ytTabShapeHostClickable[role][tabindex][aria-selected][tab-title]:nth-of-type(5)"
+    },
+    {
+      "createdAt": 1790614966094,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1688,
+      "label": "yt-icon-button#icon-button.style-scope.ytd-expandable-tab-renderer > button#button.style-scope.yt-icon-button[aria-label]",
+      "selector": "yt-icon-button#icon-button.style-scope.ytd-expandable-tab-renderer > button#button.style-scope.yt-icon-button[aria-label]"
+    },
+    {
+      "createdAt": 1790615004775,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1689,
+      "label": "div.tabGroupShapeTabs[role] > yt-tab-shape.ytTabShapeHost.ytTabShapeHostClickable[role][tabindex][aria-selected][tab-title]:nth-of-type(6)",
+      "selector": "div.tabGroupShapeTabs[role] > yt-tab-shape.ytTabShapeHost.ytTabShapeHostClickable[role][tabindex][aria-selected][tab-title]:nth-of-type(6)"
+    },
+    {
+      "createdAt": 1790615031734,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1690,
+      "label": "ytd-expandable-tab-renderer[show-input] > yt-icon-button#icon-button.style-scope.ytd-expandable-tab-renderer",
+      "selector": "ytd-expandable-tab-renderer[show-input] > yt-icon-button#icon-button.style-scope.ytd-expandable-tab-renderer"
+    },
+    {
+      "createdAt": 1790615078145,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1691,
+      "label": "div.tabGroupShapeTabs[role] > yt-tab-shape.ytTabShapeHost.ytTabShapeLastTab[aria-selected] > ytd-expandable-tab-renderer > yt-icon-button#icon-button.style-scope.ytd-expandable-tab-renderer",
+      "selector": "div.tabGroupShapeTabs[role] > yt-tab-shape.ytTabShapeHost.ytTabShapeLastTab[aria-selected] > ytd-expandable-tab-renderer > yt-icon-button#icon-button.style-scope.ytd-expandable-tab-renderer"
+    },
+    {
+      "createdAt": 1790615134956,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1692,
+      "label": "div#primary.style-scope.ytd-two-column-browse-results-renderer div#contents.style-scope.ytd-rich-grid-renderer",
+      "selector": "div#primary.style-scope.ytd-two-column-browse-results-renderer div#contents.style-scope.ytd-rich-grid-renderer"
+    },
+    {
+      "createdAt": 1790615304079,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1693,
+      "label": "div#container.style-scope.ytd-masthead > div#center.style-scope.ytd-masthead",
+      "selector": "div#container.style-scope.ytd-masthead > div#center.style-scope.ytd-masthead"
+    },
+    {
+      "createdAt": 1790615497018,
+      "domain": "google.com",
+      "enabled": true,
+      "id": 1694,
+      "label": "div[jscontroller][jsshadow][jsaction]",
+      "selector": "div[jscontroller][jsshadow][jsaction]"
+    },
+    {
+      "createdAt": 1790615606257,
+      "domain": "google.com",
+      "enabled": true,
+      "id": 1695,
+      "label": "div[jsshadow]",
+      "selector": "div[jsshadow]"
+    },
+    {
+      "createdAt": 1790615750578,
+      "domain": "google.com",
+      "enabled": true,
+      "id": 1696,
+      "label": "div[jscontroller][data-ar][data-cid][data-curl][data-dsktp][data-eidt][data-eiv][data-esrvl][data-preloadapi][data-pubr][data-surl][data-tpvid][data-vid][data-vpload][data-vurl][jsaction]",
+      "selector": "div[jscontroller][data-ar][data-cid][data-curl][data-dsktp][data-eidt][data-eiv][data-esrvl][data-preloadapi][data-pubr][data-surl][data-tpvid][data-vid][data-vpload][data-vurl][jsaction]"
+    },
+    {
+      "createdAt": 1790615985289,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1697,
+      "label": "div.ytp-fullscreen-grid[tabindex][title][data-title-no-tooltip][aria-label] > div.ytp-fullscreen-grid-main-content > div.ytp-fullscreen-grid-stills-container",
+      "selector": "div.ytp-fullscreen-grid[tabindex][title][data-title-no-tooltip][aria-label] > div.ytp-fullscreen-grid-main-content > div.ytp-fullscreen-grid-stills-container"
+    },
+    {
+      "createdAt": 1790617778307,
+      "domain": "google.com",
+      "enabled": true,
+      "id": 1698,
+      "label": "button[jsuid][tabindex][data-amic][data-icl-uuid][aria-label][jsaction][data-ved][data-hveid]",
+      "selector": "button[jsuid][tabindex][data-amic][data-icl-uuid][aria-label][jsaction][data-ved][data-hveid]"
+    },
+    {
+      "createdAt": 1790618062419,
+      "domain": "google.com",
+      "enabled": true,
+      "id": 1699,
+      "label": "div[data-ignore-copy][jsaction][jscontroller][data-sfc-root][jsuid][data-complete][data-sfc-inited] > div[data-ved][data-hveid] > div[jsaction]",
+      "selector": "div[data-ignore-copy][jsaction][jscontroller][data-sfc-root][jsuid][data-complete][data-sfc-inited] > div[data-ved][data-hveid] > div[jsaction]"
+    },
+    {
+      "createdAt": 1790618233689,
+      "domain": "google.com",
+      "enabled": true,
+      "id": 1700,
+      "label": "div[style][data-container-id][data-processed] div[data-ved][data-processed] > ul[jsuid][data-container-id][data-processed]",
+      "selector": "div[style][data-container-id][data-processed] div[data-ved][data-processed] > ul[jsuid][data-container-id][data-processed]"
+    },
+    {
+      "createdAt": 1790618261457,
+      "domain": "google.com",
+      "enabled": true,
+      "id": 1701,
+      "label": "div[data-container-id][data-ignore-copy][jsaction][jscontroller][data-sfc-root][jsuid][data-ved][data-processed][data-sfc-inited]",
+      "selector": "div[data-container-id][data-ignore-copy][jsaction][jscontroller][data-sfc-root][jsuid][data-ved][data-processed][data-sfc-inited]"
+    },
+    {
+      "createdAt": 1790618675033,
+      "domain": "google.com",
+      "enabled": true,
+      "id": 1702,
+      "label": "div[data-ved][data-processed]",
+      "selector": "div[data-ved][data-processed]"
+    },
+    {
+      "createdAt": 1790618697639,
+      "domain": "google.com",
+      "enabled": true,
+      "id": 1703,
+      "label": "div[style][data-is-server-presized-tile][data-carousel-align-target]",
+      "selector": "div[style][data-is-server-presized-tile][data-carousel-align-target]"
+    },
+    {
+      "createdAt": 1790618709763,
+      "domain": "google.com",
+      "enabled": true,
+      "id": 1704,
+      "label": "div[jsuid][data-xid][data-active][jsaction]",
+      "selector": "div[jsuid][data-xid][data-active][jsaction]"
+    },
+    {
+      "createdAt": 1790618720709,
+      "domain": "google.com",
+      "enabled": true,
+      "id": 1705,
+      "label": "div#main.main[jsmodel] > div#cnt[jsmodel] > div[jsname] > div",
+      "selector": "div#main.main[jsmodel] > div#cnt[jsmodel] > div[jsname] > div"
+    },
+    {
+      "createdAt": 1790618751008,
+      "domain": "google.com",
+      "enabled": true,
+      "id": 1706,
+      "label": "button[jsuid][aria-label][tabindex][aria-hidden][jsaction][data-ved]",
+      "selector": "button[jsuid][aria-label][tabindex][aria-hidden][jsaction][data-ved]"
+    },
+    {
+      "createdAt": 1790618798611,
+      "domain": "google.com",
+      "enabled": true,
+      "id": 1707,
+      "label": "div[jsuid][jsmodel][data-sfc-cp][jsaction][jscontroller][data-sfc-root][data-wiz-uids][data-ved][data-sfc-inited][__is_owner]",
+      "selector": "div[jsuid][jsmodel][data-sfc-cp][jsaction][jscontroller][data-sfc-root][data-wiz-uids][data-ved][data-sfc-inited][__is_owner]"
+    },
+    {
+      "createdAt": 1790618821401,
+      "domain": "google.com",
+      "enabled": true,
+      "id": 1708,
+      "label": "div[aria-label][tabindex][role][aria-controls][aria-expanded][aria-disabled][data-ved][data-hveid]",
+      "selector": "div[aria-label][tabindex][role][aria-controls][aria-expanded][aria-disabled][data-ved][data-hveid]"
+    },
+    {
+      "createdAt": 1790618856441,
+      "domain": "google.com",
+      "enabled": true,
+      "id": 1709,
+      "label": "span[jsuid][data-sfc-cp][jsaction][jscontroller][data-sfc-root][data-complete] > a",
+      "selector": "span[jsuid][data-sfc-cp][jsaction][jscontroller][data-sfc-root][data-complete] > a"
+    },
+    {
+      "createdAt": 1790618987569,
+      "domain": "google.com",
+      "enabled": true,
+      "id": 1710,
+      "label": "div[data-ignore-copy][jsaction][jscontroller][data-sfc-root][jsuid] > div[data-ved][data-hveid] > div",
+      "selector": "div[data-ignore-copy][jsaction][jscontroller][data-sfc-root][jsuid] > div[data-ved][data-hveid] > div"
+    },
+    {
+      "createdAt": 1790619089451,
+      "domain": "google.com",
+      "enabled": true,
+      "id": 1711,
+      "label": "div#gevUs.eqAnXb div#rso[eid][data-async-context] > div:nth-of-type(1) div[data-rpos] > div[jscontroller][jsaction][data-hveid] > div > div",
+      "selector": "div#gevUs.eqAnXb div#rso[eid][data-async-context] > div:nth-of-type(1) div[data-rpos] > div[jscontroller][jsaction][data-hveid] > div > div"
     }
   ]
 }
