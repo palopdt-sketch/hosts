@@ -2,7 +2,72 @@
   "rules": [
     {
       "enabled": true,
-      "id": 27,
+      "id": 4717,
+      "name": "youtube search_query",
+      "redirectUrl": "https://www.youtube.com/",
+      "requestHeaders": [],
+      "responseHeaders": [],
+      "ruleType": "redirect",
+      "source": {
+        "matchType": "wildcard",
+        "resourceTypes": [
+          "main_frame"
+        ],
+        "value": "https://www.youtube.com/results?search_query="
+      }
+    },
+    {
+      "enabled": true,
+      "id": 4721,
+      "name": "Block shorts 1",
+      "redirectUrl": "https://www.youtube.com/",
+      "requestHeaders": [],
+      "responseHeaders": [],
+      "ruleType": "block",
+      "source": {
+        "matchType": "wildcard",
+        "resourceTypes": [
+          "main_frame"
+        ],
+        "value": "https://www.youtube.com/shorts"
+      }
+    },
+    {
+      "enabled": true,
+      "id": 4721,
+      "name": "Block shorts 1",
+      "redirectUrl": "https://www.youtube.com/",
+      "requestHeaders": [],
+      "responseHeaders": [],
+      "ruleType": "block",
+      "source": {
+        "matchType": "wildcard",
+        "resourceTypes": [
+          "main_frame"
+        ],
+        "value": "https://www.youtube.com"
+      }
+    },
+    {
+      "enabled": true,
+      "id": 4722,
+      "name": "Block shorts 2",
+      "redirectUrl": "https://www.youtube.com",
+      "requestHeaders": [],
+      "responseHeaders": [],
+      "ruleType": "block",
+      "source": {
+        "matchType": "wildcard",
+        "resourceTypes": [
+          "main_frame"
+        ],
+        "value": "https://www.youtube.com/shorts/"
+      }
+    },
+    {
+      "_syncSource": true,
+      "enabled": true,
+      "id": 4738,
       "name": "music youtube search",
       "redirectUrl": "https://music.youtube.com/",
       "requestHeaders": [],
@@ -19,7 +84,7 @@
     {
       "_syncSource": true,
       "enabled": true,
-      "id": 164,
+      "id": 4739,
       "name": "ad_header.js",
       "redirectUrl": "http://192.168.68.206/BrainXYZ/test.js",
       "requestHeaders": [],
@@ -36,7 +101,7 @@
     {
       "_syncSource": true,
       "enabled": true,
-      "id": 165,
+      "id": 4740,
       "name": "guard-check.js",
       "redirectUrl": "http://192.168.68.206/BrainXYZ/test.js",
       "requestHeaders": [],
@@ -53,12 +118,65 @@
   ],
   "hideRules": [
     {
-      "createdAt": 1790123310349,
+      "createdAt": 1790600021828,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1528,
+      "label": ".ytChipBarViewModelHost.style-scope.ytd-section-list-renderer",
+      "selector": ".ytChipBarViewModelHost.style-scope.ytd-section-list-renderer"
+    },
+    {
+      "createdAt": 1790600040467,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1534,
+      "label": ".style-scope.ytd-feed-filter-chip-bar-renderer",
+      "selector": ".style-scope.ytd-feed-filter-chip-bar-renderer"
+    },
+    {
+      "_syncSource": true,
+      "createdAt": 1790601835518,
       "domain": "music.youtube.com",
       "enabled": true,
-      "id": 1,
+      "id": 1560,
       "label": ".search-box.style-scope.ytmusic-search-box",
       "selector": ".search-box.style-scope.ytmusic-search-box"
+    },
+    {
+      "_syncSource": true,
+      "createdAt": 1790601835526,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1561,
+      "label": ".ytSearchboxComponentInputContainer",
+      "selector": ".ytSearchboxComponentInputContainer"
+    },
+    {
+      "_syncSource": true,
+      "createdAt": 1790601835532,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1562,
+      "label": ".ytSpecTouchFeedbackShapeStroke",
+      "selector": ".ytSpecTouchFeedbackShapeStroke"
+    },
+    {
+      "_syncSource": true,
+      "createdAt": 1790601835535,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1563,
+      "label": ".ytSpecTouchFeedbackShapeFill",
+      "selector": ".ytSpecTouchFeedbackShapeFill"
+    },
+    {
+      "_syncSource": true,
+      "createdAt": 1790601835544,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1564,
+      "label": "yt-button-shape",
+      "selector": "yt-button-shape"
     }
   ]
 }
