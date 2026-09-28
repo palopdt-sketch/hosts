@@ -53,12 +53,45 @@
   ],
   "hideRules": [
     {
-      "createdAt": 1790123310349,
+      "_syncSource": true,
+      "createdAt": 1790598974202,
       "domain": "music.youtube.com",
       "enabled": true,
-      "id": 1,
+      "id": 1510,
       "label": ".search-box.style-scope.ytmusic-search-box",
       "selector": ".search-box.style-scope.ytmusic-search-box"
+    },
+    {
+      "createdAt": 1790598994328,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1511,
+      "label": ".ytSearchboxComponentInputContainer",
+      "selector": ".ytSearchboxComponentInputContainer"
+    },
+    {
+      "createdAt": 1790599106852,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1513,
+      "label": ".ytSpecTouchFeedbackShapeStroke",
+      "selector": ".ytSpecTouchFeedbackShapeStroke"
+    },
+    {
+      "createdAt": 1790599112604,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1514,
+      "label": ".ytSpecTouchFeedbackShapeFill",
+      "selector": ".ytSpecTouchFeedbackShapeFill"
+    },
+    {
+      "createdAt": 1790599127540,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1515,
+      "label": "yt-button-shape",
+      "selector": "yt-button-shape"
     }
   ]
 }
