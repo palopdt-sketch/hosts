@@ -4,20 +4,30 @@
   ],
   "hideRules": [
     {
-      "createdAt": 1790666753790,
+      "_syncSource": true,
+      "createdAt": 1790682281977,
       "domain": "youtube.com",
       "enabled": true,
-      "id": 1865,
+      "id": 1870,
       "label": "yt-flexible-actions-view-model.ytFlexibleActionsViewModelHost.ytPageHeaderViewModelFlexibleActions.ytPageHeaderViewModelFlexibleActionsMarginTop.ytPageHeaderViewModelFlexibleActionsMarginBottom.ytFlexibleActionsViewModelInline.ytFlexibleActionsViewModelJustifyContentStart",
       "selector": "yt-flexible-actions-view-model.ytFlexibleActionsViewModelHost.ytPageHeaderViewModelFlexibleActions.ytPageHeaderViewModelFlexibleActionsMarginTop.ytPageHeaderViewModelFlexibleActionsMarginBottom.ytFlexibleActionsViewModelInline.ytFlexibleActionsViewModelJustifyContentStart"
     },
     {
-      "createdAt": 1790666843907,
+      "_syncSource": true,
+      "createdAt": 1790682281978,
       "domain": "youtube.com",
       "enabled": true,
-      "id": 1866,
+      "id": 1871,
       "label": "yt-button-shape#subscribe-button-shape.style-scope.ytd-subscribe-button-renderer > button.ytSpecButtonShapeNextHost.ytSpecButtonShapeNextFilled.ytSpecButtonShapeNextMono.ytSpecButtonShapeNextSizeM.ytSpecButtonShapeNextEnableBackdropFilterExperiment.ytSpecButtonShapeNextMainstageIconSize.ytSpecButtonShapeNextMainstagePadding[title][aria-label]",
       "selector": "yt-button-shape#subscribe-button-shape.style-scope.ytd-subscribe-button-renderer > button.ytSpecButtonShapeNextHost.ytSpecButtonShapeNextFilled.ytSpecButtonShapeNextMono.ytSpecButtonShapeNextSizeM.ytSpecButtonShapeNextEnableBackdropFilterExperiment.ytSpecButtonShapeNextMainstageIconSize.ytSpecButtonShapeNextMainstagePadding[title][aria-label]"
+    },
+    {
+      "createdAt": 1790682305680,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1872,
+      "label": "div#columns.style-scope.ytd-watch-flexy > div#secondary.style-scope.ytd-watch-flexy[style]",
+      "selector": "div#columns.style-scope.ytd-watch-flexy > div#secondary.style-scope.ytd-watch-flexy[style]"
     }
   ],
   "ytFilter": {
