@@ -34,20 +34,20 @@
       }
     },
     {
+      "enabled": true,
       "id": 4819,
       "name": "music  youtube search",
-      "enabled": true,
+      "redirectUrl": "https://music.youtube.com/",
+      "requestHeaders": [],
+      "responseHeaders": [],
       "ruleType": "redirect",
       "source": {
         "matchType": "wildcard",
-        "value": "https://music.youtube.com/search?",
         "resourceTypes": [
           "main_frame"
-        ]
-      },
-      "redirectUrl": "https://music.youtube.com/",
-      "requestHeaders": [],
-      "responseHeaders": []
+        ],
+        "value": "https://music.youtube.com/search?"
+      }
     }
   ],
   "hideRules": [
@@ -302,7 +302,7 @@
     {
       "createdAt": 1790617778307,
       "domain": "google.com",
-      "enabled": true,
+      "enabled": false,
       "id": 1698,
       "label": "button[jsuid][tabindex][data-amic][data-icl-uuid][aria-label][jsaction][data-ved][data-hveid]",
       "selector": "button[jsuid][tabindex][data-amic][data-icl-uuid][aria-label][jsaction][data-ved][data-hveid]"
@@ -318,7 +318,7 @@
     {
       "createdAt": 1790618233689,
       "domain": "google.com",
-      "enabled": true,
+      "enabled": false,
       "id": 1700,
       "label": "div[style][data-container-id][data-processed] div[data-ved][data-processed] > ul[jsuid][data-container-id][data-processed]",
       "selector": "div[style][data-container-id][data-processed] div[data-ved][data-processed] > ul[jsuid][data-container-id][data-processed]"
@@ -334,7 +334,7 @@
     {
       "createdAt": 1790618675033,
       "domain": "google.com",
-      "enabled": true,
+      "enabled": false,
       "id": 1702,
       "label": "div[data-ved][data-processed]",
       "selector": "div[data-ved][data-processed]"
@@ -446,7 +446,7 @@
   ],
   "ytFilter": {
     "enabled": true,
-    "keywordsRaw": "Toán,Lý,Hoá,Sinh,Văn,Sử,Địa,Anh văn,Tin học,Công nghệ,GDCD,Giáo dục thể chất,Lớp 6,Lớp 7,Lớp 8,Lớp 9,Lớp 10,Lớp 11,Lớp 12,THCS,THPT,Đại học,Thi THPT Quốc gia,Tuyển sinh,Kỳ thi,Thi học kỳ,Thi giữa kỳ,Ôn tập,Ôn thi,Luyện thi,Luyện đề,Giải đề,Đề thi,Đáp án,Bài tập,Bài giảng,Giải bài tập,Chữa bài,Kiểm tra,Thi thử,Tổng ôn,Nâng cao,Tự học,Phương pháp học tập,Mẹo học,Bí quyết học,Kỹ năng học tập,Ghi nhớ,Tư duy logic,Sơ đồ tư duy,Ghi chú,Quản lý thời gian,Tập trung,Rèn luyện trí nhớ,Học nhóm,Học online,E-learning,Từ vựng,Ngữ pháp,Phát âm,Luyện nghe,Luyện nói,Luyện viết,IELTS,TOEIC,Giao tiếp tiếng Anh,Ngữ pháp tiếng Anh,Bài tập tiếng Anh,Học tiếng Anh,Công thức,Định lý,Định luật,Thí nghiệm,Chuyên đề,Bài học,Giáo án,Giảng dạy,Hướng dẫn giải,Kiến thức cơ bản,Kiến thức nâng cao,Video bài giảng,Rèn luyện thể lực,Thể dục thể thao,Tập luyện,Kỹ năng sống,Kỹ năng mềm,Rèn luyện bản thân,Phát triển bản thân,Kỷ luật,Kiên trì,Nghị lực,Thầy giáo,Cô giáo,Gia sư,Giảng viên,Khóa học,Trung tâm luyện thi,Học viện,Video học,Bài giảng online,học"
+    "keywordsRaw": "câu,thầy,cô,giảng,viết,đề,Bài,đáp,Lớp,Đại,Số,nghiệm,Luyện,Giải,Toán,Lý,Hoá,Sinh,Văn,Sử,Địa,Anh văn,Tin học,Công nghệ,GDCD,Giáo dục thể chất,Lớp 6,Lớp 7,Lớp 8,Lớp 9,Lớp 10,Lớp 11,Lớp 12,THCS,THPT,Đại học,Thi THPT Quốc gia,Tuyển sinh,Kỳ thi,Thi học kỳ,Thi giữa kỳ,Ôn tập,Ôn thi,Luyện thi,Luyện đề,Giải đề,Đề thi,Đáp án,Bài tập,Bài giảng,Giải bài tập,Chữa bài,Kiểm tra,Thi thử,Tổng ôn,Nâng cao,Tự học,Phương pháp học tập,Mẹo học,Bí quyết học,Kỹ năng học tập,Ghi nhớ,Tư duy logic,Sơ đồ tư duy,Ghi chú,Quản lý thời gian,Tập trung,Rèn luyện trí nhớ,Học nhóm,Học online,E-learning,Từ vựng,Ngữ pháp,Phát âm,Luyện nghe,Luyện nói,Luyện viết,IELTS,TOEIC,Giao tiếp tiếng Anh,Ngữ pháp tiếng Anh,Bài tập tiếng Anh,Học tiếng Anh,Công thức,Định lý,Định luật,Thí nghiệm,Chuyên đề,Bài học,Giáo án,Giảng dạy,Hướng dẫn giải,Kiến thức cơ bản,Kiến thức nâng cao,Video bài giảng,Rèn luyện thể lực,Thể dục thể thao,Tập luyện,Kỹ năng sống,Kỹ năng mềm,Rèn luyện bản thân,Phát triển bản thân,Kỷ luật,Kiên trì,Nghị lực,Thầy giáo,Cô giáo,Gia sư,Giảng viên,Khóa học,Trung tâm luyện thi,Học viện,Video học,Bài giảng online,học"
   },
   "trafficLogEnabled": true
 }
