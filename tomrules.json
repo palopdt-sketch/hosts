@@ -34,20 +34,20 @@
       }
     },
     {
+      "enabled": true,
       "id": 4819,
       "name": "music  youtube search",
-      "enabled": true,
+      "redirectUrl": "https://music.youtube.com/",
+      "requestHeaders": [],
+      "responseHeaders": [],
       "ruleType": "redirect",
       "source": {
         "matchType": "wildcard",
-        "value": "https://music.youtube.com/search?",
         "resourceTypes": [
           "main_frame"
-        ]
-      },
-      "redirectUrl": "https://music.youtube.com/",
-      "requestHeaders": [],
-      "responseHeaders": []
+        ],
+        "value": "https://music.youtube.com/search?"
+      }
     }
   ],
   "hideRules": [
@@ -302,7 +302,7 @@
     {
       "createdAt": 1790617778307,
       "domain": "google.com",
-      "enabled": true,
+      "enabled": false,
       "id": 1698,
       "label": "button[jsuid][tabindex][data-amic][data-icl-uuid][aria-label][jsaction][data-ved][data-hveid]",
       "selector": "button[jsuid][tabindex][data-amic][data-icl-uuid][aria-label][jsaction][data-ved][data-hveid]"
@@ -318,7 +318,7 @@
     {
       "createdAt": 1790618233689,
       "domain": "google.com",
-      "enabled": true,
+      "enabled": false,
       "id": 1700,
       "label": "div[style][data-container-id][data-processed] div[data-ved][data-processed] > ul[jsuid][data-container-id][data-processed]",
       "selector": "div[style][data-container-id][data-processed] div[data-ved][data-processed] > ul[jsuid][data-container-id][data-processed]"
@@ -334,7 +334,7 @@
     {
       "createdAt": 1790618675033,
       "domain": "google.com",
-      "enabled": true,
+      "enabled": false,
       "id": 1702,
       "label": "div[data-ved][data-processed]",
       "selector": "div[data-ved][data-processed]"
