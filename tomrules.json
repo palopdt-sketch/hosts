@@ -1,9 +1,10 @@
 {
+  "clear": 1,
   "rules": [
     {
       "enabled": true,
-      "id": 4717,
-      "name": "youtube search_query",
+      "id": 4817,
+      "name": "search_query",
       "redirectUrl": "https://www.youtube.com/",
       "requestHeaders": [],
       "responseHeaders": [],
@@ -17,29 +18,13 @@
       }
     },
     {
+      "enabled": true,
       "id": 4818,
       "name": "Shorts",
-      "enabled": true,
-      "ruleType": "redirect",
-      "source": {
-        "matchType": "wildcard",
-        "value": "https://www.youtube.com/shorts",
-        "resourceTypes": [
-          "main_frame"
-        ]
-      },
-      "redirectUrl": "https://www.youtube.com/",
-      "requestHeaders": [],
-      "responseHeaders": []
-    },
-    {
-      "enabled": true,
-      "id": 4721,
-      "name": "Block shorts 1",
       "redirectUrl": "https://www.youtube.com/",
       "requestHeaders": [],
       "responseHeaders": [],
-      "ruleType": "block",
+      "ruleType": "redirect",
       "source": {
         "matchType": "wildcard",
         "resourceTypes": [
@@ -49,87 +34,20 @@
       }
     },
     {
+      "id": 4819,
+      "name": "music  youtube search",
       "enabled": true,
-      "id": 4721,
-      "name": "Block shorts 1",
-      "redirectUrl": "https://www.youtube.com/",
-      "requestHeaders": [],
-      "responseHeaders": [],
-      "ruleType": "block",
+      "ruleType": "redirect",
       "source": {
         "matchType": "wildcard",
+        "value": "https://music.youtube.com/search?",
         "resourceTypes": [
           "main_frame"
-        ],
-        "value": "https://www.youtube.com"
-      }
-    },
-    {
-      "enabled": true,
-      "id": 4722,
-      "name": "Block shorts 2",
-      "redirectUrl": "https://www.youtube.com",
-      "requestHeaders": [],
-      "responseHeaders": [],
-      "ruleType": "block",
-      "source": {
-        "matchType": "wildcard",
-        "resourceTypes": [
-          "main_frame"
-        ],
-        "value": "https://www.youtube.com/shorts/"
-      }
-    },
-    {
-      "_syncSource": true,
-      "enabled": true,
-      "id": 4738,
-      "name": "music youtube search",
+        ]
+      },
       "redirectUrl": "https://music.youtube.com/",
       "requestHeaders": [],
-      "responseHeaders": [],
-      "ruleType": "redirect",
-      "source": {
-        "matchType": "wildcard",
-        "resourceTypes": [
-          "main_frame"
-        ],
-        "value": "https://music.youtube.com/search?q=*"
-      }
-    },
-    {
-      "_syncSource": true,
-      "enabled": true,
-      "id": 4739,
-      "name": "ad_header.js",
-      "redirectUrl": "http://192.168.68.206/BrainXYZ/test.js",
-      "requestHeaders": [],
-      "responseHeaders": [],
-      "ruleType": "redirect",
-      "source": {
-        "matchType": "contains",
-        "resourceTypes": [
-          "script"
-        ],
-        "value": "ad_header.js"
-      }
-    },
-    {
-      "_syncSource": true,
-      "enabled": true,
-      "id": 4740,
-      "name": "guard-check.js",
-      "redirectUrl": "http://192.168.68.206/BrainXYZ/test.js",
-      "requestHeaders": [],
-      "responseHeaders": [],
-      "ruleType": "redirect",
-      "source": {
-        "matchType": "contains",
-        "resourceTypes": [
-          "script"
-        ],
-        "value": "guard-check.js"
-      }
+      "responseHeaders": []
     }
   ],
   "hideRules": [
@@ -342,14 +260,6 @@
       "selector": "div.tabGroupShapeTabs[role] > yt-tab-shape.ytTabShapeHost.ytTabShapeLastTab[aria-selected] > ytd-expandable-tab-renderer > yt-icon-button#icon-button.style-scope.ytd-expandable-tab-renderer"
     },
     {
-      "createdAt": 1790615134956,
-      "domain": "youtube.com",
-      "enabled": true,
-      "id": 1692,
-      "label": "div#primary.style-scope.ytd-two-column-browse-results-renderer div#contents.style-scope.ytd-rich-grid-renderer",
-      "selector": "div#primary.style-scope.ytd-two-column-browse-results-renderer div#contents.style-scope.ytd-rich-grid-renderer"
-    },
-    {
       "createdAt": 1790615304079,
       "domain": "youtube.com",
       "enabled": true,
@@ -500,6 +410,35 @@
       "id": 1711,
       "label": "div#gevUs.eqAnXb div#rso[eid][data-async-context] > div:nth-of-type(1) div[data-rpos] > div[jscontroller][jsaction][data-hveid] > div > div",
       "selector": "div#gevUs.eqAnXb div#rso[eid][data-async-context] > div:nth-of-type(1) div[data-rpos] > div[jscontroller][jsaction][data-hveid] > div > div"
+    },
+    {
+      "createdAt": 1790653287525,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1714,
+      "label": "div#primary.style-scope.ytd-two-column-browse-results-renderer > ytd-rich-grid-renderer.style-scope.ytd-two-column-browse-results-renderer[elements-per-row][style][is-default-grid]",
+      "selector": "div#primary.style-scope.ytd-two-column-browse-results-renderer > ytd-rich-grid-renderer.style-scope.ytd-two-column-browse-results-renderer[elements-per-row][style][is-default-grid]"
+    },
+    {
+      "createdAt": 1790653719788,
+      "domain": "music.youtube.com",
+      "enabled": true,
+      "id": 1715,
+      "label": "ytmusic-nav-bar.style-scope.ytmusic-app[slot][role][is-cairo-voting-animation-enabled][user-logged-in] > div.center-content.style-scope.ytmusic-nav-bar",
+      "selector": "ytmusic-nav-bar.style-scope.ytmusic-app[slot][role][is-cairo-voting-animation-enabled][user-logged-in] > div.center-content.style-scope.ytmusic-nav-bar"
+    },
+    {
+      "createdAt": 1790653744387,
+      "domain": "music.youtube.com",
+      "enabled": true,
+      "id": 1716,
+      "label": "div#right-content.right-content.style-scope.ytmusic-nav-bar",
+      "selector": "div#right-content.right-content.style-scope.ytmusic-nav-bar"
     }
-  ]
+  ],
+  "ytFilter": {
+    "enabled": true,
+    "keywordsRaw": "Toán,Lý,Hoá,Sinh,Văn,Sử,Địa,Anh văn,Tin học,Công nghệ,GDCD,Giáo dục thể chất,Lớp 6,Lớp 7,Lớp 8,Lớp 9,Lớp 10,Lớp 11,Lớp 12,THCS,THPT,Đại học,Thi THPT Quốc gia,Tuyển sinh,Kỳ thi,Thi học kỳ,Thi giữa kỳ,Ôn tập,Ôn thi,Luyện thi,Luyện đề,Giải đề,Đề thi,Đáp án,Bài tập,Bài giảng,Giải bài tập,Chữa bài,Kiểm tra,Thi thử,Tổng ôn,Nâng cao,Tự học,Phương pháp học tập,Mẹo học,Bí quyết học,Kỹ năng học tập,Ghi nhớ,Tư duy logic,Sơ đồ tư duy,Ghi chú,Quản lý thời gian,Tập trung,Rèn luyện trí nhớ,Học nhóm,Học online,E-learning,Từ vựng,Ngữ pháp,Phát âm,Luyện nghe,Luyện nói,Luyện viết,IELTS,TOEIC,Giao tiếp tiếng Anh,Ngữ pháp tiếng Anh,Bài tập tiếng Anh,Học tiếng Anh,Công thức,Định lý,Định luật,Thí nghiệm,Chuyên đề,Bài học,Giáo án,Giảng dạy,Hướng dẫn giải,Kiến thức cơ bản,Kiến thức nâng cao,Video bài giảng,Rèn luyện thể lực,Thể dục thể thao,Tập luyện,Kỹ năng sống,Kỹ năng mềm,Rèn luyện bản thân,Phát triển bản thân,Kỷ luật,Kiên trì,Nghị lực,Thầy giáo,Cô giáo,Gia sư,Giảng viên,Khóa học,Trung tâm luyện thi,Học viện,Video học,Bài giảng online"
+  },
+  "trafficLogEnabled": true
 }
