@@ -3,6 +3,22 @@
   "rules": [
   ],
   "hideRules": [
+    {
+      "createdAt": 1790666753790,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1865,
+      "label": "yt-flexible-actions-view-model.ytFlexibleActionsViewModelHost.ytPageHeaderViewModelFlexibleActions.ytPageHeaderViewModelFlexibleActionsMarginTop.ytPageHeaderViewModelFlexibleActionsMarginBottom.ytFlexibleActionsViewModelInline.ytFlexibleActionsViewModelJustifyContentStart",
+      "selector": "yt-flexible-actions-view-model.ytFlexibleActionsViewModelHost.ytPageHeaderViewModelFlexibleActions.ytPageHeaderViewModelFlexibleActionsMarginTop.ytPageHeaderViewModelFlexibleActionsMarginBottom.ytFlexibleActionsViewModelInline.ytFlexibleActionsViewModelJustifyContentStart"
+    },
+    {
+      "createdAt": 1790666843907,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1866,
+      "label": "yt-button-shape#subscribe-button-shape.style-scope.ytd-subscribe-button-renderer > button.ytSpecButtonShapeNextHost.ytSpecButtonShapeNextFilled.ytSpecButtonShapeNextMono.ytSpecButtonShapeNextSizeM.ytSpecButtonShapeNextEnableBackdropFilterExperiment.ytSpecButtonShapeNextMainstageIconSize.ytSpecButtonShapeNextMainstagePadding[title][aria-label]",
+      "selector": "yt-button-shape#subscribe-button-shape.style-scope.ytd-subscribe-button-renderer > button.ytSpecButtonShapeNextHost.ytSpecButtonShapeNextFilled.ytSpecButtonShapeNextMono.ytSpecButtonShapeNextSizeM.ytSpecButtonShapeNextEnableBackdropFilterExperiment.ytSpecButtonShapeNextMainstageIconSize.ytSpecButtonShapeNextMainstagePadding[title][aria-label]"
+    }
   ],
   "ytFilter": {
     "enabled": false,
