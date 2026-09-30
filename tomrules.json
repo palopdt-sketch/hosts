@@ -175,6 +175,22 @@
       "id": 1872,
       "label": "div#columns.style-scope.ytd-watch-flexy > div#secondary.style-scope.ytd-watch-flexy[style]",
       "selector": "div#columns.style-scope.ytd-watch-flexy > div#secondary.style-scope.ytd-watch-flexy[style]"
+    },
+    {
+      "createdAt": 1790759441336,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1955,
+      "label": "ytd-item-section-renderer#sections.style-scope.ytd-comments[initial-count][first-lockup-no-top-margin][lockup-container-type][header-style][not-sticky][exp-fix-playlist-header][enable-related-chips-caching][secondary-grid-columns][section-identifier]",
+      "selector": "ytd-item-section-renderer#sections.style-scope.ytd-comments[initial-count][first-lockup-no-top-margin][lockup-container-type][header-style][not-sticky][exp-fix-playlist-header][enable-related-chips-caching][secondary-grid-columns][section-identifier]"
+    },
+    {
+      "createdAt": 1790759483075,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1956,
+      "label": "div#columns.style-scope.ytd-watch-flexy > div#secondary.style-scope.ytd-watch-flexy",
+      "selector": "div#columns.style-scope.ytd-watch-flexy > div#secondary.style-scope.ytd-watch-flexy"
     }
   ],
   "ytFilter": {
