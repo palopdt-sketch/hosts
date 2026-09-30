@@ -161,6 +161,14 @@
       "selector": "div#gevUs.eqAnXb div#rso[eid][data-async-context] > div:nth-of-type(1) div[data-rpos] > div[jscontroller][jsaction][data-hveid] > div > div"
     },
     {
+      "createdAt": 1790752903102,
+      "domain": "google.com",
+      "enabled": true,
+      "id": 1913,
+      "label": "iframe#widget2[allowfullscreen][allow][frameborder][width][height][referrerpolicy][style][src][title]",
+      "selector": "iframe#widget2[allowfullscreen][allow][frameborder][width][height][referrerpolicy][style][src][title]"
+    },
+    {
       "createdAt": 1790682305680,
       "domain": "youtube.com",
       "enabled": true,
