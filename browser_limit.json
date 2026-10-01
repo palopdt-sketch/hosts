@@ -7,7 +7,7 @@
       "domain": "youtube.com",
       "include_subdomains": true,
       "extend_domains": [
-        "*.googlevideo.com"
+        "*.xgooglevideo.com"
       ],
       "exclude_domains": [
         "https://music.youtube.com/"
