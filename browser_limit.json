@@ -6,7 +6,8 @@
       "name": "youtube",
       "domain": "youtube.com",
       "include_subdomains": true,
-      "extent_domains": ["*.googlevideo.com"]
+      "extend_domains": ["*.googlevideo.com"],
+      "exclude_domains": ["https://music.youtube.com/"]
     }
   ],
   "settings": [
