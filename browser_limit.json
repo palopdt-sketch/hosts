@@ -24,16 +24,19 @@
         {
           "domain": "youtube.com",
           "time_follow_limit": "21:00",
+          "time_follow_end":"06:00",
           "day_follow_week": "2,3,4,5,6" 
         },
         {
           "domain": "download.com.vn",
           "time_follow_limit": "00:01",
+          "time_follow_end":"06:00",
           "day_follow_week": "2,3,4,5,6,7,CN" 
         },
         {
           "domain": "*",
           "time_follow_limit": "21:30",
+          "time_follow_end":"06:00",
           "day_follow_week": "2,3,4,5,6,7,CN" 
         }
       ],
