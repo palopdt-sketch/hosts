@@ -2,7 +2,7 @@
   "rules": [
     {
       "active_block": true,
-      "maxtime_oneday": 1200,
+      "maxtime_oneday": 3600,
       "name": "youtube",
       "domain": "youtube.com",
       "include_subdomains": true,
@@ -19,7 +19,7 @@
       "start_count_time": 18,
       "format_day": 24,
       "show_total_time": true,
-      "count_allday": true
+      "count_allday": false
     }
   ]
 }
