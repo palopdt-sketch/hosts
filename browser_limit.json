@@ -23,7 +23,7 @@
       "start_count_time": 18,
       "format_day": 24,
       "show_total_time": true,
-      "count_allday": true,
+      "count_allday": false,
       "active_block_yt_auto_play": true,
       "exclude_homepage": true,
       "exclude_search ": true,
