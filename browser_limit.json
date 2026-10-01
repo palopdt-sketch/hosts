@@ -20,6 +20,23 @@
   ],
   "settings": [
     {
+      "domain_limit_follow": [
+        {
+          "domain": "youtube.com",
+          "time_follow_limit": "21:00",
+          "day_follow_week": "2,3,4,5,6" 
+        },
+        {
+          "domain": "download.com.vn",
+          "time_follow_limit": "00:01",
+          "day_follow_week": "2,3,4,5,6,7,CN" 
+        },
+        {
+          "domain": "*",
+          "time_follow_limit": "21:30",
+          "day_follow_week": "2,3,4,5,6,7,CN" 
+        }
+      ],
       "start_count_time": 18,
       "format_day": 24,
       "show_total_time": true,
