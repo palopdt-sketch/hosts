@@ -7,7 +7,7 @@
       "domain": "youtube.com",
       "include_subdomains": true,
       "extend_domains": [
-        "*.xgooglevideo.com"
+        "*.googlevideo.com"
       ],
       "ytFilter": {
         "enabled": false,
