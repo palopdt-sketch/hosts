@@ -2,7 +2,7 @@
   "rules": [
     {
       "active_block": true,
-      "maxtime_oneday": 7200,
+      "maxtime_oneday": 1,
       "name": "youtube",
       "domain": "youtube.com",
       "include_subdomains": true,
