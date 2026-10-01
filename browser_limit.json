@@ -1,0 +1,19 @@
+{
+  "rules": [
+    {
+      "active_block": true,
+      "maxtime_oneday": 7200,
+      "name": "youtube",
+      "domain": "youtube.com",
+      "include_subdomains": true,
+      "extent_domains": ["*.googlevideo.com"]
+    }
+  ],
+  "settings": [
+    {
+      "start_count_time": 18,
+      "format_day": 24,
+      "show_total_time": true
+    }
+  ]
+}
