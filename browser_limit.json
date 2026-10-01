@@ -14,7 +14,8 @@
     {
       "start_count_time": 18,
       "format_day": 24,
-      "show_total_time": true
+      "show_total_time": true,
+       "count_allday": true,
     }
   ]
 }
