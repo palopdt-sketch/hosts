@@ -1,0 +1,10 @@
+{
+  "clear": 1,
+  "rules": [],
+  "hideRules": [],
+  "ytFilter": {
+    "enabled": false,
+    "keywordsRaw": ""
+  },
+  "trafficLogEnabled": false
+}
