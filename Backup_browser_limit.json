@@ -1,0 +1,114 @@
+{
+  "rules": [
+    {
+      "active_block": true,
+      "maxtime_oneday": 3600,
+      "name": "youtube",
+      "domain": "youtube.com",
+      "include_subdomains": true,
+      "extend_domains": [
+        "*.googlevideo.com"
+      ],
+      "ytFilter": {
+        "enabled": true,
+        "keywordsRaw": "câu,thầy,cô,giảng,viết,đề,Bài,đáp,Lớp,Đại,Số,nghiệm,Luyện,Giải,Toán,Lý,Hoá,Hóa,Sinh,Văn,Sử,Địa,Anh văn,Tin học,Công nghệ,GDCD,Giáo dục thể chất,Lớp 6,Lớp 7,Lớp 8,Lớp 9,Lớp 10,Lớp 11,Lớp 12,THCS,THPT,Đại học,Thi THPT Quốc gia,Tuyển sinh,Kỳ thi,Thi học kỳ,Thi giữa kỳ,Ôn tập,Ôn thi,Luyện thi,Luyện đề,Giải đề,Đề thi,Đáp án,Bài tập,Bài giảng,Giải bài tập,Chữa bài,Kiểm tra,Thi thử,Tổng ôn,Nâng cao,Tự học,Phương pháp học tập,Mẹo học,Bí quyết học,Kỹ năng học tập,Ghi nhớ,Tư duy logic,Sơ đồ tư duy,Ghi chú,Quản lý thời gian,Tập trung,Rèn luyện trí nhớ,Học nhóm,Học online,E-learning,Từ vựng,Ngữ pháp,Phát âm,Luyện nghe,Luyện nói,Luyện viết,IELTS,TOEIC,Giao tiếp tiếng Anh,Ngữ pháp tiếng Anh,Bài tập tiếng Anh,Học tiếng Anh,Công thức,Định lý,Định luật,Thí nghiệm,Chuyên đề,Bài học,Giáo án,Giảng dạy,Hướng dẫn giải,Kiến thức cơ bản,Kiến thức nâng cao,Video bài giảng,Rèn luyện thể lực,Thể dục thể thao,Tập luyện,Kỹ năng sống,Kỹ năng mềm,Rèn luyện bản thân,Phát triển bản thân,Kỷ luật,Kiên trì,Nghị lực,Thầy giáo,Cô giáo,Gia sư,Giảng viên,Khóa học,Trung tâm luyện thi,Học viện,Video học,Bài giảng online,học"
+      },
+      "exclude_domains": [
+        "https://music.youtube.com/"
+      ]
+    }
+  ],
+  "settings": [
+    {
+      "domain_limit_follow": [
+        {
+          "domain": "youtube.com",
+          "time_follow_limit": "21:00",
+          "time_follow_end":"06:00",
+          "day_follow_week": "2,3,4,5,6" 
+        },
+        {
+          "domain": "download.com.vn",
+          "time_follow_limit": "00:01",
+          "time_follow_end":"23:59",
+          "day_follow_week": "2,3,4,5,6,7,CN" 
+        },
+        {
+          "domain": "*",
+          "time_follow_limit": "21:30",
+          "time_follow_end":"06:00",
+          "day_follow_week": "2,3,4,5,6,7,CN" 
+        }
+      ],
+      "start_count_time": 18,
+      "format_day": 24,
+      "show_total_time": true,
+      "count_allday": false,
+      "active_block_yt_auto_play": true,
+      "exclude_homepage": true,
+      "exclude_search ": true,
+      "extension_active_block": true,
+      "domain_blacklist_block": true,
+      "domain_blacklist": [
+        "savefrom.net",
+        "y2mate.com",
+        "yt1s.com",
+        "ssyoutube.com",
+        "cobalt.tools",
+        "9convert.com",
+        "inv.nadeko.net",
+        "invidious.nerdvpn.de",
+        "yt.chocolatemoo53.com",
+        "invidious.tiekoetter.com",
+        "invidious.f5.si",
+        "inv.zoomerville.com",
+        "yewtu.be",
+        "invidious.io",
+        "inv.tux.pizza",
+        "invidious.privacydev.net",
+        "iv.ggtyler.dev",
+        "yt.artemislena.eu",
+        "invidious.fdn.fr",
+        "invidious.lunar.icu",
+        "invidious.protokolla.fi",
+        "invidious.perennialte.ch",
+        "invidious.einfachzocken.eu",
+        "invidious.jing.rocks",
+        "invidious.reallyaweso.me",
+        "invidious.slipfox.xyz",
+        "iv.nboeck.de",
+        "yt.drgnz.club",
+        "y.com.sb",
+        "invidio.us",
+        "hooktube.com",
+        "kavin.rocks",
+        "leptons.xyz",
+        "nosebs.ru",
+        "privacy.com.de",
+        "adminforge.de",
+        "piped.yt",
+        "drgns.space",
+        "owo.si",
+        "ducks.party",
+        "codespace.cz",
+        "private.coffee",
+        "piped.video",
+        "poketube.fun",
+        "tube.cadence.moe",
+        "croxyproxy.com",
+        "croxyproxy.net",
+        "croxyproxy.rocks",
+        "proxysite.com",
+        "4everproxy.com",
+        "hide.me",
+        "kproxy.com",
+        "hidemyass.com",
+        "genmirror.com",
+        "proxyium.com",
+        "hidester.com",
+        "filterbypass.me",
+        "translate.goog"
+      ]
+    }
+  ]
+}
