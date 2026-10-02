@@ -1,6 +1,8 @@
 # hosts
 hosts
 
+D:\AppPY\PCTimeGuard>python -m PyInstaller --clean --noconfirm --windowed --onefile --uac-admin --icon=app.png --name=PCGuard main.py
+
 python -m PyInstaller --noconsole --onefile --uac-admin  your_script.py
 
 python -m PyInstaller --clean --noconfirm --windowed --onefile --uac-admin --icon=app.ico --name=CasioCal casio_calculator.py
