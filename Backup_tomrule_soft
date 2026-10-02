@@ -1,0 +1,201 @@
+{
+  "clear": 1,
+  "rules": [
+  ],
+  "hideRules": [
+    {
+      "_syncSource": true,
+      "createdAt": 1790682281977,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1870,
+      "label": "yt-flexible-actions-view-model.ytFlexibleActionsViewModelHost.ytPageHeaderViewModelFlexibleActions.ytPageHeaderViewModelFlexibleActionsMarginTop.ytPageHeaderViewModelFlexibleActionsMarginBottom.ytFlexibleActionsViewModelInline.ytFlexibleActionsViewModelJustifyContentStart",
+      "selector": "yt-flexible-actions-view-model.ytFlexibleActionsViewModelHost.ytPageHeaderViewModelFlexibleActions.ytPageHeaderViewModelFlexibleActionsMarginTop.ytPageHeaderViewModelFlexibleActionsMarginBottom.ytFlexibleActionsViewModelInline.ytFlexibleActionsViewModelJustifyContentStart"
+    },
+    {
+      "_syncSource": true,
+      "createdAt": 1790682281978,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1871,
+      "label": "yt-button-shape#subscribe-button-shape.style-scope.ytd-subscribe-button-renderer > button.ytSpecButtonShapeNextHost.ytSpecButtonShapeNextFilled.ytSpecButtonShapeNextMono.ytSpecButtonShapeNextSizeM.ytSpecButtonShapeNextEnableBackdropFilterExperiment.ytSpecButtonShapeNextMainstageIconSize.ytSpecButtonShapeNextMainstagePadding[title][aria-label]",
+      "selector": "yt-button-shape#subscribe-button-shape.style-scope.ytd-subscribe-button-renderer > button.ytSpecButtonShapeNextHost.ytSpecButtonShapeNextFilled.ytSpecButtonShapeNextMono.ytSpecButtonShapeNextSizeM.ytSpecButtonShapeNextEnableBackdropFilterExperiment.ytSpecButtonShapeNextMainstageIconSize.ytSpecButtonShapeNextMainstagePadding[title][aria-label]"
+    },
+
+
+
+    {
+      "createdAt": 1790615497018,
+      "domain": "google.com",
+      "enabled": true,
+      "id": 1694,
+      "label": "div[jscontroller][jsshadow][jsaction]",
+      "selector": "div[jscontroller][jsshadow][jsaction]"
+    },
+    {
+      "createdAt": 1790615606257,
+      "domain": "google.com",
+      "enabled": true,
+      "id": 1695,
+      "label": "div[jsshadow]",
+      "selector": "div[jsshadow]"
+    },
+    {
+      "createdAt": 1790615750578,
+      "domain": "google.com",
+      "enabled": true,
+      "id": 1696,
+      "label": "div[jscontroller][data-ar][data-cid][data-curl][data-dsktp][data-eidt][data-eiv][data-esrvl][data-preloadapi][data-pubr][data-surl][data-tpvid][data-vid][data-vpload][data-vurl][jsaction]",
+      "selector": "div[jscontroller][data-ar][data-cid][data-curl][data-dsktp][data-eidt][data-eiv][data-esrvl][data-preloadapi][data-pubr][data-surl][data-tpvid][data-vid][data-vpload][data-vurl][jsaction]"
+    },
+    {
+      "createdAt": 1790617778307,
+      "domain": "google.com",
+      "enabled": false,
+      "id": 1698,
+      "label": "button[jsuid][tabindex][data-amic][data-icl-uuid][aria-label][jsaction][data-ved][data-hveid]",
+      "selector": "button[jsuid][tabindex][data-amic][data-icl-uuid][aria-label][jsaction][data-ved][data-hveid]"
+    },
+    {
+      "createdAt": 1790618062419,
+      "domain": "google.com",
+      "enabled": true,
+      "id": 1699,
+      "label": "div[data-ignore-copy][jsaction][jscontroller][data-sfc-root][jsuid][data-complete][data-sfc-inited] > div[data-ved][data-hveid] > div[jsaction]",
+      "selector": "div[data-ignore-copy][jsaction][jscontroller][data-sfc-root][jsuid][data-complete][data-sfc-inited] > div[data-ved][data-hveid] > div[jsaction]"
+    },
+    {
+      "createdAt": 1790618233689,
+      "domain": "google.com",
+      "enabled": false,
+      "id": 1700,
+      "label": "div[style][data-container-id][data-processed] div[data-ved][data-processed] > ul[jsuid][data-container-id][data-processed]",
+      "selector": "div[style][data-container-id][data-processed] div[data-ved][data-processed] > ul[jsuid][data-container-id][data-processed]"
+    },
+    {
+      "createdAt": 1790618261457,
+      "domain": "google.com",
+      "enabled": true,
+      "id": 1701,
+      "label": "div[data-container-id][data-ignore-copy][jsaction][jscontroller][data-sfc-root][jsuid][data-ved][data-processed][data-sfc-inited]",
+      "selector": "div[data-container-id][data-ignore-copy][jsaction][jscontroller][data-sfc-root][jsuid][data-ved][data-processed][data-sfc-inited]"
+    },
+    {
+      "createdAt": 1790618675033,
+      "domain": "google.com",
+      "enabled": false,
+      "id": 1702,
+      "label": "div[data-ved][data-processed]",
+      "selector": "div[data-ved][data-processed]"
+    },
+    {
+      "createdAt": 1790618697639,
+      "domain": "google.com",
+      "enabled": true,
+      "id": 1703,
+      "label": "div[style][data-is-server-presized-tile][data-carousel-align-target]",
+      "selector": "div[style][data-is-server-presized-tile][data-carousel-align-target]"
+    },
+    {
+      "createdAt": 1790618709763,
+      "domain": "google.com",
+      "enabled": true,
+      "id": 1704,
+      "label": "div[jsuid][data-xid][data-active][jsaction]",
+      "selector": "div[jsuid][data-xid][data-active][jsaction]"
+    },
+    {
+      "createdAt": 1790618720709,
+      "domain": "google.com",
+      "enabled": true,
+      "id": 1705,
+      "label": "div#main.main[jsmodel] > div#cnt[jsmodel] > div[jsname] > div",
+      "selector": "div#main.main[jsmodel] > div#cnt[jsmodel] > div[jsname] > div"
+    },
+    {
+      "createdAt": 1790618751008,
+      "domain": "google.com",
+      "enabled": true,
+      "id": 1706,
+      "label": "button[jsuid][aria-label][tabindex][aria-hidden][jsaction][data-ved]",
+      "selector": "button[jsuid][aria-label][tabindex][aria-hidden][jsaction][data-ved]"
+    },
+    {
+      "createdAt": 1790618798611,
+      "domain": "google.com",
+      "enabled": true,
+      "id": 1707,
+      "label": "div[jsuid][jsmodel][data-sfc-cp][jsaction][jscontroller][data-sfc-root][data-wiz-uids][data-ved][data-sfc-inited][__is_owner]",
+      "selector": "div[jsuid][jsmodel][data-sfc-cp][jsaction][jscontroller][data-sfc-root][data-wiz-uids][data-ved][data-sfc-inited][__is_owner]"
+    },
+    {
+      "createdAt": 1790618821401,
+      "domain": "google.com",
+      "enabled": true,
+      "id": 1708,
+      "label": "div[aria-label][tabindex][role][aria-controls][aria-expanded][aria-disabled][data-ved][data-hveid]",
+      "selector": "div[aria-label][tabindex][role][aria-controls][aria-expanded][aria-disabled][data-ved][data-hveid]"
+    },
+    {
+      "createdAt": 1790618856441,
+      "domain": "google.com",
+      "enabled": true,
+      "id": 1709,
+      "label": "span[jsuid][data-sfc-cp][jsaction][jscontroller][data-sfc-root][data-complete] > a",
+      "selector": "span[jsuid][data-sfc-cp][jsaction][jscontroller][data-sfc-root][data-complete] > a"
+    },
+    {
+      "createdAt": 1790618987569,
+      "domain": "google.com",
+      "enabled": true,
+      "id": 1710,
+      "label": "div[data-ignore-copy][jsaction][jscontroller][data-sfc-root][jsuid] > div[data-ved][data-hveid] > div",
+      "selector": "div[data-ignore-copy][jsaction][jscontroller][data-sfc-root][jsuid] > div[data-ved][data-hveid] > div"
+    },
+    {
+      "createdAt": 1790619089451,
+      "domain": "google.com",
+      "enabled": true,
+      "id": 1711,
+      "label": "div#gevUs.eqAnXb div#rso[eid][data-async-context] > div:nth-of-type(1) div[data-rpos] > div[jscontroller][jsaction][data-hveid] > div > div",
+      "selector": "div#gevUs.eqAnXb div#rso[eid][data-async-context] > div:nth-of-type(1) div[data-rpos] > div[jscontroller][jsaction][data-hveid] > div > div"
+    },
+    {
+      "createdAt": 1790752903102,
+      "domain": "google.com",
+      "enabled": true,
+      "id": 1913,
+      "label": "iframe#widget2[allowfullscreen][allow][frameborder][width][height][referrerpolicy][style][src][title]",
+      "selector": "iframe#widget2[allowfullscreen][allow][frameborder][width][height][referrerpolicy][style][src][title]"
+    },
+    {
+      "createdAt": 1790682305680,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1872,
+      "label": "div#columns.style-scope.ytd-watch-flexy > div#secondary.style-scope.ytd-watch-flexy[style]",
+      "selector": "div#columns.style-scope.ytd-watch-flexy > div#secondary.style-scope.ytd-watch-flexy[style]"
+    },
+    {
+      "createdAt": 1790759441336,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1955,
+      "label": "ytd-item-section-renderer#sections.style-scope.ytd-comments[initial-count][first-lockup-no-top-margin][lockup-container-type][header-style][not-sticky][exp-fix-playlist-header][enable-related-chips-caching][secondary-grid-columns][section-identifier]",
+      "selector": "ytd-item-section-renderer#sections.style-scope.ytd-comments[initial-count][first-lockup-no-top-margin][lockup-container-type][header-style][not-sticky][exp-fix-playlist-header][enable-related-chips-caching][secondary-grid-columns][section-identifier]"
+    },
+    {
+      "createdAt": 1790759483075,
+      "domain": "youtube.com",
+      "enabled": true,
+      "id": 1956,
+      "label": "div#columns.style-scope.ytd-watch-flexy > div#secondary.style-scope.ytd-watch-flexy",
+      "selector": "div#columns.style-scope.ytd-watch-flexy > div#secondary.style-scope.ytd-watch-flexy"
+    }
+  ],
+  "ytFilter": {
+    "enabled": false,
+    "keywordsRaw": "câu,thầy,cô,giảng,viết,đề,Bài,đáp,Lớp,Đại,Số,nghiệm,Luyện,Giải,Toán,Lý,Hoá,Sinh,Văn,Sử,Địa,Anh văn,Tin học,Công nghệ,GDCD,Giáo dục thể chất,Lớp 6,Lớp 7,Lớp 8,Lớp 9,Lớp 10,Lớp 11,Lớp 12,THCS,THPT,Đại học,Thi THPT Quốc gia,Tuyển sinh,Kỳ thi,Thi học kỳ,Thi giữa kỳ,Ôn tập,Ôn thi,Luyện thi,Luyện đề,Giải đề,Đề thi,Đáp án,Bài tập,Bài giảng,Giải bài tập,Chữa bài,Kiểm tra,Thi thử,Tổng ôn,Nâng cao,Tự học,Phương pháp học tập,Mẹo học,Bí quyết học,Kỹ năng học tập,Ghi nhớ,Tư duy logic,Sơ đồ tư duy,Ghi chú,Quản lý thời gian,Tập trung,Rèn luyện trí nhớ,Học nhóm,Học online,E-learning,Từ vựng,Ngữ pháp,Phát âm,Luyện nghe,Luyện nói,Luyện viết,IELTS,TOEIC,Giao tiếp tiếng Anh,Ngữ pháp tiếng Anh,Bài tập tiếng Anh,Học tiếng Anh,Công thức,Định lý,Định luật,Thí nghiệm,Chuyên đề,Bài học,Giáo án,Giảng dạy,Hướng dẫn giải,Kiến thức cơ bản,Kiến thức nâng cao,Video bài giảng,Rèn luyện thể lực,Thể dục thể thao,Tập luyện,Kỹ năng sống,Kỹ năng mềm,Rèn luyện bản thân,Phát triển bản thân,Kỷ luật,Kiên trì,Nghị lực,Thầy giáo,Cô giáo,Gia sư,Giảng viên,Khóa học,Trung tâm luyện thi,Học viện,Video học,Bài giảng online,học"
+  },
+  "trafficLogEnabled": false
+}
