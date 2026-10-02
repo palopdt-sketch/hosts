@@ -6,7 +6,13 @@
     "time_rest": 3600,
     "show_time_count": true,
     "hide_system_tray": true,
-    "froce_clear_password": false,
+    "hide_tray_hint_shown": true,
+    "froce_password":
+    {
+    "active": false,
+    "password": "pHUmwglM5QDamIf8",
+    "recovery_code": "EA03-C167-6DEF-C6B2"
+    },
     "follow_software": {
       "filter": true,
       "software": [
