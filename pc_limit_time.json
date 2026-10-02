@@ -7,14 +7,14 @@
     "show_time_count": true,
     "follow_software": {
       "filter": true,
-      "files": [
-        "chrome.exe"
-      ]
-    },
-    "follow_windowname": {
-      "filter": false,
-      "names": [
-        "Google Chrome"
+      "software": [
+        {
+          "name": "Chrome",
+          "files": [
+            "chrome.exe"
+          ],
+          "windowname": "google chrome"
+        }
       ]
     },
     "notice_follow_software": "Bạn đã sử dụng follow_software quá giới hạn, hãy tạm nghỉ ngơi time_rest",
