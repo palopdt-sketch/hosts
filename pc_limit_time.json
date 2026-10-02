@@ -5,6 +5,8 @@
     "time_limit": 7200,
     "time_rest": 3600,
     "show_time_count": true,
+    "hide_system_tray": true,
+    "froce_clear_password": true,
     "follow_software": {
       "filter": true,
       "software": [
