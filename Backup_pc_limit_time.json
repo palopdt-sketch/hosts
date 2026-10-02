@@ -1,0 +1,31 @@
+{
+  "settings": {
+    "active": true,
+    "time_pclimit_total": 36000,
+    "time_limit": 7200,
+    "time_rest": 3600,
+    "show_time_count": true,
+    "hide_system_tray": true,
+    "hide_tray_hint_shown": true,
+    "froce_password":
+    {
+    "active": false,
+    "password": "pHUmwglM5QDamIf8",
+    "recovery_code": "EA03-C167-6DEF-C6B2"
+    },
+    "follow_software": {
+      "filter": true,
+      "software": [
+        {
+          "name": "Chrome",
+          "files": [
+            "chrome.exe"
+          ],
+          "windowname": "google chrome"
+        }
+      ]
+    },
+    "notice_follow_software": "Bạn đã sử dụng follow_software quá giới hạn, hãy tạm nghỉ ngơi time_rest",
+    "notice_total": "Bạn đã sử dụng máy tính quá giới hạn, hãy tạm  nghỉ ngơi time_rest"
+  }
+}
