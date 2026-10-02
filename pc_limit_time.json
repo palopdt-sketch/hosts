@@ -1,0 +1,23 @@
+{
+  "settings": {
+    "active": true,
+    "time_pclimit_total": 36000,
+    "time_limit": 7200,
+    "time_rest": 3600,
+    "show_time_count": true,
+    "follow_software": {
+      "filter": true,
+      "files": [
+        "chrome.exe"
+      ]
+    },
+    "follow_windowname": {
+      "filter": false,
+      "names": [
+        "Google Chrome"
+      ]
+    },
+    "notice_follow_software": "Bạn đã sử dụng follow_software quá giới hạn, hãy tạm nghỉ ngơi time_rest",
+    "notice_total": "Bạn đã sử dụng máy tính quá giới hạn, hãy tạm  nghỉ ngơi time_rest"
+  }
+}
