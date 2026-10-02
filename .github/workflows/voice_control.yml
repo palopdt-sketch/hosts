@@ -18,6 +18,7 @@ jobs:
             echo "" > windowsname
             cat Backup_tomrule_empty.json > tomrules.json
             cat Backup_browser_limit_empty.json > browser_limit.json
+            cat unlock_pc_limit_time.json > pc_limit_time.json
             echo "STATUS=Đã bỏ Block" >> $GITHUB_ENV
           elif [ "${{ github.event.action }}" == "block_now" ]; then
             cat Backup_hosts > hosts
@@ -25,6 +26,7 @@ jobs:
             cat Backup_windowname > windowsname
             cat Backup_tomrule_soft.json > tomrules.json
             cat Backup_browser_limit.json > browser_limit.json
+            cat Backup_pc_limit_time.json > pc_limit_time.json
             echo "STATUS=Đã Block" >> $GITHUB_ENV
           fi
 
@@ -32,6 +34,6 @@ jobs:
         run: |
           git config --global user.name "Claude AI"
           git config --global user.email "claude@ai.com"
-          git add hosts game.txt windowsname tomrules.json browser_limit.json
+          git add hosts game.txt windowsname tomrules.json browser_limit.json pc_limit_time.json
           git commit -m "${{ env.STATUS }}"
           git push
