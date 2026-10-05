@@ -17,15 +17,37 @@
       "filter": true,
       "software": [
         {
+          "active": true,
           "name": "Chrome",
           "files": [
             "chrome.exe"
           ],
           "windowname": "google chrome"
+        },
+        {
+          "active": true,
+          "name": "BlueArchive",
+          "time_rest": 7200,
+          "files": [
+            "BlueArchive_JP_Gamelauncher.exe",
+            "BlueArchive.exe"
+          ],
+          "windowname": "BlueArchive"
+        },
+        {
+          "active": true,
+          "name": "genshin",
+          "time_limit": 3600,
+          "time_rest": 900,
+          "files": [
+            "GenshinImpact.exe"
+          ],
+          "windowname": "genshin"
         }
       ]
     },
     "notice_follow_software": "Bạn đã sử dụng follow_software quá giới hạn, hãy tạm nghỉ ngơi time_rest",
-    "notice_total": "Bạn đã sử dụng máy tính quá giới hạn, hãy tạm  nghỉ ngơi time_rest"
+    "notice_total": "Bạn đã sử dụng máy tính quá giới hạn, hãy tạm  nghỉ ngơi time_rest",
+    "hint_boss": "This is an experimental version that has not yet been approved by AI Siri and Boss Palo"
   }
 }
