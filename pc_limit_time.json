@@ -1,12 +1,12 @@
 {
   "settings": {
-    "active": true,
+    "active": false,
     "time_pclimit_total": 36000,
     "time_limit": 7200,
     "time_rest": 3600,
     "show_time_count": true,
-    "hide_system_tray": true,
-    "hide_tray_hint_shown": true,
+    "hide_system_tray": false,
+    "hide_tray_hint_shown": false,
     "froce_password":
     {
     "active": false,
