@@ -1,8 +1,7 @@
 # hosts
 hosts
 
-python -m PyInstaller --clean --noconfirm --windowed --onefile --uac-admin --icon="assets\AppUpdate.ico"  --add-data "assets\AppUpdate.ico;assets\AppUpdate.png" --name=AppUpdate updater.py
-
+python -m PyInstaller --clean --noconfirm --windowed --onefile --uac-admin --icon="assets\AppUpdate.ico" --add-data "assets;assets" --name=AppUpdate updater.py
 
 D:\AppPY\PCTimeGuard>python -m PyInstaller --clean --noconfirm --windowed --onefile --uac-admin --icon=app.png --name=PCGuard main.py
 
