@@ -44,7 +44,7 @@
       "extension_active_block": false,
       "domain_blacklist_block": false,
       "domain_blacklist": [
-        "example.com"
+        "chat.zalo.me"
       ]
     }
   ]
