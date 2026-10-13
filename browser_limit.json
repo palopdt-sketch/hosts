@@ -50,6 +50,7 @@
       "extension_active_block": true,
       "domain_blacklist_block": true,
       "domain_blacklist": [
+        "tenor.com",
         "chat.zalo.me",
         "1337x.to",
         "24hgame.vn",
