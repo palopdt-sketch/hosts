@@ -1,3 +1,20 @@
+##
+Cách 1: Tải file và ghi đè trực tiếp
+
+curl -L "https://example.com/file.exe" -o "C:\Program Files\abc\file.exe"
+
+
+Cách 2: Tải vào thư mục tạm rồi chép đè
+
+curl -L "https://example.com/file.exe" -o "%TEMP%\file.exe" && copy /Y "%TEMP%\file.exe" "C:\Program Files\abc\file.exe"
+
+
+Cách 3: Dùng PowerShell từ CMD
+
+powershell -Command "Invoke-WebRequest -Uri 'https://example.com/file.exe' -OutFile 'C:\Program Files\abc\file.exe'"
+
+##
+
 # hosts
 hosts
 
