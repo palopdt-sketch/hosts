@@ -24,6 +24,8 @@ powershell -Command "Invoke-WebRequest -Uri 'https://example.com/file.exe' -OutF
 # hosts
 hosts
 
+D:\AppPY\PCTimeGuard>python -m PyInstaller --clean --noconfirm --windowed --onefile --uac-admin --icon=MouseLaggChecker.png --name=LagHost MouseLaggChecker_SQLite_noGUI.py
+
 AppUpdate.exe "Phan Design Version 3.01 " "D:\AppPY\PhanDesign\dist\PhanDesign.exe" "https://raw.githubusercontent.com/palopdt-sketch/hosts/refs/heads/main/dit/PhanDesign.zip.001"
 
 python -m PyInstaller --clean --noconfirm --windowed --onefile --uac-admin --icon="assets\AppUpdate.ico" --add-data "assets;assets" --name=AppUpdate updater.py
