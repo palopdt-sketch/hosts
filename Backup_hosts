@@ -30,6 +30,24 @@
 0.0.0.0 itch.io
 0.0.0.0 ninja-muffin24.itch.io
 
+# --- [Proxy VPN] ---
+
+0.0.0.0 protonvpn.com
+0.0.0.0 windscribe.com
+0.0.0.0 psiphon.ca
+0.0.0.0 mullvad.net
+0.0.0.0 nordvpn.com
+0.0.0.0 expressvpn.com
+0.0.0.0 surfshark.com
+0.0.0.0 tunnelbear.com
+0.0.0.0 hide.me
+0.0.0.0 proxyium.com
+0.0.0.0 croxyproxy.com
+0.0.0.0 proxysite.com
+0.0.0.0 4everproxy.com
+0.0.0.0 kproxy.com
+0.0.0.0 whoer.net
+0.0.0.0 sourceforge.net
 
 # --- [Trình Duyệt] ---
 
