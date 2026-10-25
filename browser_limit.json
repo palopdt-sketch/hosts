@@ -51,6 +51,8 @@
       "domain_blacklist_block": true,
       "domain_blacklist": [
         "mozilla.org",
+        "pinterest.com",
+        "osucollector.com",
         "www.mozilla.org",
         "download.mozilla.org",
         "ftp.mozilla.org",
