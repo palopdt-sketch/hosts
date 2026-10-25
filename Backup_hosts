@@ -10,6 +10,29 @@
 0.0.0.0 ev.io
 0.0.0.0 www.ev.io
 
+# --- [Trình Duyệt] ---
+
+0.0.0.0 mozilla.org
+0.0.0.0 www.mozilla.org
+0.0.0.0 download.mozilla.org
+0.0.0.0 ftp.mozilla.org
+0.0.0.0 brave.com
+0.0.0.0 updates.bravesoftware.com
+0.0.0.0 bravesoftware.com
+0.0.0.0 opera.com
+0.0.0.0 download.opera.com
+0.0.0.0 autoupdate.geo.opera.com
+0.0.0.0 vivaldi.com
+0.0.0.0 downloads.vivaldi.com
+0.0.0.0 torproject.org
+0.0.0.0 download.torproject.org
+0.0.0.0 dist.torproject.org
+0.0.0.0 duckduckgo.com
+0.0.0.0 browser.yandex.com
+0.0.0.0 yandex.com
+0.0.0.0 arc.net
+0.0.0.0 coccoc.com
+0.0.0.0 download.coccoc.com
 
 # --- [CỔNG GAME & NHÀ PHÁT HÀNH VIỆT NAM] ---
 0.0.0.0 garena.vn
