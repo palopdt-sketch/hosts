@@ -10,6 +10,21 @@
 0.0.0.0 ev.io
 0.0.0.0 www.ev.io
 
+
+0.0.0.0 fnf-games.io
+0.0.0.0 sandbox.game
+0.0.0.0 chocolateminecraft.com
+0.0.0.0 dawn.gg
+0.0.0.0 pokerogue.net
+0.0.0.0 m.twitch.tv
+0.0.0.0 twitch.tv
+0.0.0.0 typebeat.sh
+0.0.0.0 buildingbeats.org
+0.0.0.0 materium.gg
+0.0.0.0 itch.io
+0.0.0.0 ninja-muffin24.itch.io
+
+
 # --- [Trình Duyệt] ---
 
 0.0.0.0 mozilla.org
