@@ -22,7 +22,7 @@ jobs:
             echo "STATUS=Đã bỏ Block" >> $GITHUB_ENV
           elif [ "${{ github.event.action }}" == "block_now" ]; then
             cat Backup_hosts > hosts
-            cat Clear_game > game.txt
+            cat Backup_game > game.txt
             cat Clear_windowname > windowsname
             cat Backup_tomrule_soft.json > tomrules.json
             cat Backup_browser_limit.json > browser_limit.json
