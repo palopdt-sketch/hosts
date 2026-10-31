@@ -50,6 +50,7 @@
       "extension_active_block": false,
       "domain_blacklist_block": true,
       "domain_blacklist": [
+        "easyfun.gg",
         "1001games.com",
         "10fastfingers.com",
         "1337x.to",
