@@ -2,7 +2,7 @@
   "rules": [
     {
       "active_block": true,
-      "maxtime_oneday": 3600,
+      "maxtime_oneday": 36000,
       "name": "youtube",
       "domain": "youtube.com",
       "include_subdomains": true,
@@ -40,14 +40,14 @@
           "day_follow_week": "2,3,4,5,6,7,CN" 
         }
       ],
-      "start_count_time": 18,
+      "start_count_time": "06",
       "format_day": 24,
       "show_total_time": true,
       "count_allday": false,
-      "active_block_yt_auto_play": true,
+      "active_block_yt_auto_play": false,
       "exclude_homepage": true,
       "exclude_search ": true,
-      "extension_active_block": true,
+      "extension_active_block": false,
       "domain_blacklist_block": true,
       "domain_blacklist": [
         "easyfun.gg",
